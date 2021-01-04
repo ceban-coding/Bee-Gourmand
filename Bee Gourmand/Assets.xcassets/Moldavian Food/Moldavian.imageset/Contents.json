@@ -1,11 +1,11 @@
 {
   "images" : [
     {
+      "filename" : "Moldavian.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Moldavian.png",
       "idiom" : "universal",
       "scale" : "2x"
     },

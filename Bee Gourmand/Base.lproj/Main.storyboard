@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ljc-S4-aJ3">
-                                <rect key="frame" x="137" y="734" width="141" height="44"/>
+                                <rect key="frame" x="139" y="729" width="136" height="44"/>
                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="27"/>
                                 <state key="normal" title="Get started">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -34,32 +34,24 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="RI9-k4-f4Z">
-                                <rect key="frame" x="20" y="152" width="374" height="371"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="371" id="1Mi-dg-6bl"/>
-                                    <constraint firstAttribute="width" constant="374" id="3LF-XE-keS"/>
-                                </constraints>
+                                <rect key="frame" x="20" y="148" width="374" height="371"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.99215686274509807" green="1" blue="0.90588235294117647" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="RI9-k4-f4Z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="0fP-7v-zcE"/>
-                            <constraint firstItem="ljc-S4-aJ3" firstAttribute="top" secondItem="RI9-k4-f4Z" secondAttribute="bottom" constant="211" id="14l-mD-WCq"/>
-                            <constraint firstItem="RI9-k4-f4Z" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="64" id="3vb-pQ-lK3"/>
-                            <constraint firstItem="c0g-yZ-pnP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="353" id="4KL-Bl-ZGr"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="c0g-yZ-pnP" secondAttribute="trailing" constant="36" id="5C7-cc-q03"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RI9-k4-f4Z" secondAttribute="trailing" constant="20" id="7Wl-cW-L3F"/>
-                            <constraint firstItem="ljc-S4-aJ3" firstAttribute="top" secondItem="RI9-k4-f4Z" secondAttribute="bottom" constant="211" id="8VX-JW-OUV"/>
-                            <constraint firstItem="RI9-k4-f4Z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="8oB-xT-fKd"/>
-                            <constraint firstItem="ljc-S4-aJ3" firstAttribute="top" secondItem="RI9-k4-f4Z" secondAttribute="bottom" constant="211" id="MPv-eZ-6kz"/>
-                            <constraint firstItem="ljc-S4-aJ3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="137" id="SGf-7x-PTw"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ljc-S4-aJ3" secondAttribute="trailing" constant="136" id="Tmb-1b-7qP"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="c0g-yZ-pnP" secondAttribute="bottom" constant="13" id="Tmb-4H-jeu"/>
-                            <constraint firstItem="c0g-yZ-pnP" firstAttribute="top" secondItem="RI9-k4-f4Z" secondAttribute="bottom" constant="302" id="ejO-gP-Gfn"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ljc-S4-aJ3" secondAttribute="bottom" constant="84" id="jn6-vG-ced"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RI9-k4-f4Z" secondAttribute="trailing" constant="20" id="k91-Rb-1dF"/>
-                            <constraint firstItem="RI9-k4-f4Z" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="64" id="vIb-sN-gQU"/>
+                            <constraint firstItem="RI9-k4-f4Z" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="6od-EH-l1f"/>
+                            <constraint firstItem="c0g-yZ-pnP" firstAttribute="top" secondItem="RI9-k4-f4Z" secondAttribute="bottom" constant="306" id="Ae9-ns-jes"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ljc-S4-aJ3" secondAttribute="trailing" constant="139" id="BYJ-gK-4O3"/>
+                            <constraint firstItem="RI9-k4-f4Z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Bg1-fN-q0o"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="RI9-k4-f4Z" secondAttribute="bottom" constant="343" id="PFU-vp-x7Z"/>
+                            <constraint firstItem="ljc-S4-aJ3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="139" id="US4-wM-J4x"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="c0g-yZ-pnP" secondAttribute="bottom" constant="13" id="dkg-Lk-wAk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RI9-k4-f4Z" secondAttribute="trailing" constant="20" id="hef-PD-gDP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="c0g-yZ-pnP" secondAttribute="trailing" constant="36" id="iuK-cY-gFp"/>
+                            <constraint firstItem="ljc-S4-aJ3" firstAttribute="top" secondItem="RI9-k4-f4Z" secondAttribute="bottom" constant="210" id="jBh-qz-QmT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ljc-S4-aJ3" secondAttribute="bottom" constant="89" id="qZQ-Rp-00D"/>
+                            <constraint firstItem="c0g-yZ-pnP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="353" id="wBC-C8-htR"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="m5f-Cz-uD3"/>
@@ -76,15 +68,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Recipes By Countries" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vWO-eS-sc3">
-                                <rect key="frame" x="104" y="102" width="262" height="25.5"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4fy-OD-Wuj">
-                                <rect key="frame" x="0.0" y="334" width="422" height="191"/>
+                                <rect key="frame" x="-1" y="334" width="418" height="191"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Russian"/>
                                 <connections>
@@ -92,7 +77,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TWJ-84-pbw">
-                                <rect key="frame" x="0.0" y="521" width="422" height="191"/>
+                                <rect key="frame" x="-1" y="524" width="418" height="191"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Italy R"/>
                                 <connections>
@@ -100,7 +85,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rag-yH-RxI">
-                                <rect key="frame" x="0.0" y="705" width="422" height="191"/>
+                                <rect key="frame" x="-1" y="712" width="415" height="191"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Greek R"/>
                                 <connections>
@@ -108,13 +93,20 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9JY-LO-3xK">
-                                <rect key="frame" x="0.0" y="146" width="470" height="191"/>
+                                <rect key="frame" x="-2" y="146" width="416" height="191"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Moldavian"/>
                                 <connections>
                                     <segue destination="pbA-E4-jRz" kind="show" id="VS8-00-5Vm"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Recipes By Countries" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vWO-eS-sc3">
+                                <rect key="frame" x="102" y="101" width="212" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="qkM-Ym-3YT"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -154,7 +146,7 @@
                                                 <rect key="frame" x="32" y="324" width="350" height="103"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">   Mamaliga is a traditional dish from Moldova, a small Eastern European country that used to be a part of the Soviet Union. These days, it has emerged as a hip ethnic food that can be seen in fancy restaurants of Moldova.</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -364,7 +356,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fried Fish" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7bX-GY-zWn">
-                                <rect key="frame" x="166" y="765" width="74" height="21"/>
+                                <rect key="frame" x="166" y="765" width="74" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -465,14 +457,14 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qpl-WZ-a9R">
-                                <rect key="frame" x="15" y="571" width="390" height="128"/>
+                                <rect key="frame" x="15" y="571" width="390" height="128.5"/>
                                 <state key="normal" title="Button" image="Mackerel"/>
                                 <connections>
                                     <segue destination="9pl-zv-ugk" kind="show" id="ZRh-Nl-5Fg"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bu9-Tc-i5p">
-                                <rect key="frame" x="15" y="713" width="390" height="130"/>
+                                <rect key="frame" x="15" y="713.5" width="390" height="130"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="130" id="iOm-fe-NAh"/>
                                 </constraints>
@@ -506,7 +498,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Steamed Mussels" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YZ7-D9-qXe">
-                                <rect key="frame" x="176" y="768" width="135" height="21"/>
+                                <rect key="frame" x="176" y="768.5" width="135" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -516,6 +508,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="8QZ-eQ-Eo3" firstAttribute="leading" secondItem="YZ7-D9-qXe" secondAttribute="leading" id="7FX-SZ-gEV"/>
+                            <constraint firstItem="khq-4K-Qqx" firstAttribute="trailing" secondItem="dpM-qY-ain" secondAttribute="trailing" constant="125" id="7TI-em-Az9"/>
                             <constraint firstItem="uQv-r2-Y08" firstAttribute="centerX" secondItem="8QZ-eQ-Eo3" secondAttribute="centerX" id="7bM-YN-d5I"/>
                             <constraint firstItem="XxS-M6-buu" firstAttribute="top" secondItem="uQv-r2-Y08" secondAttribute="bottom" constant="12" id="AWU-oh-EOE"/>
                             <constraint firstItem="Qpl-WZ-a9R" firstAttribute="top" secondItem="87W-qA-eiG" secondAttribute="bottom" constant="12" id="BGL-hh-udF"/>
@@ -528,6 +521,7 @@
                             <constraint firstItem="8QZ-eQ-Eo3" firstAttribute="centerY" secondItem="XxS-M6-buu" secondAttribute="centerY" id="MYF-HC-rNy"/>
                             <constraint firstItem="8QZ-eQ-Eo3" firstAttribute="leading" secondItem="dqF-QE-Gba" secondAttribute="leading" id="MdE-lK-x1l"/>
                             <constraint firstItem="YZ7-D9-qXe" firstAttribute="top" secondItem="Qpl-WZ-a9R" secondAttribute="bottom" constant="69" id="N02-4p-d8t"/>
+                            <constraint firstItem="dpM-qY-ain" firstAttribute="top" secondItem="y4a-Cu-oXp" secondAttribute="bottom" constant="70" id="OY5-uu-cjN"/>
                             <constraint firstItem="Bu9-Tc-i5p" firstAttribute="firstBaseline" secondItem="YZ7-D9-qXe" secondAttribute="firstBaseline" id="OzX-4W-aH4"/>
                             <constraint firstItem="Bu9-Tc-i5p" firstAttribute="baseline" secondItem="YZ7-D9-qXe" secondAttribute="baseline" id="QBo-L2-x5f"/>
                             <constraint firstItem="uQv-r2-Y08" firstAttribute="leading" secondItem="khq-4K-Qqx" secondAttribute="leading" constant="15" id="Stl-8N-RQN"/>
@@ -540,8 +534,10 @@
                             <constraint firstItem="uQv-r2-Y08" firstAttribute="leading" secondItem="XxS-M6-buu" secondAttribute="leading" id="ZPj-DE-Ikb"/>
                             <constraint firstItem="uQv-r2-Y08" firstAttribute="leading" secondItem="Bu9-Tc-i5p" secondAttribute="leading" id="ZcU-J5-VaY"/>
                             <constraint firstItem="uQv-r2-Y08" firstAttribute="leading" secondItem="Qpl-WZ-a9R" secondAttribute="leading" id="aRL-pT-WEz"/>
+                            <constraint firstItem="XxS-M6-buu" firstAttribute="top" secondItem="dpM-qY-ain" secondAttribute="bottom" constant="67" id="axc-8V-7KE"/>
                             <constraint firstItem="uQv-r2-Y08" firstAttribute="top" secondItem="y4a-Cu-oXp" secondAttribute="bottom" constant="15" id="baX-9r-2mx"/>
                             <constraint firstItem="uQv-r2-Y08" firstAttribute="trailing" secondItem="XxS-M6-buu" secondAttribute="trailing" id="cJU-8r-PgB"/>
+                            <constraint firstItem="dpM-qY-ain" firstAttribute="leading" secondItem="khq-4K-Qqx" secondAttribute="leading" constant="173" id="cm7-QU-iBV"/>
                             <constraint firstItem="8QZ-eQ-Eo3" firstAttribute="baseline" secondItem="XxS-M6-buu" secondAttribute="firstBaseline" id="g3m-lJ-bI4"/>
                             <constraint firstItem="YZ7-D9-qXe" firstAttribute="centerX" secondItem="dqF-QE-Gba" secondAttribute="centerX" id="gZe-I7-3Yt"/>
                             <constraint firstItem="Bu9-Tc-i5p" firstAttribute="top" secondItem="Qpl-WZ-a9R" secondAttribute="bottom" constant="14" id="iAk-1w-7io"/>
@@ -588,63 +584,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="118579948_3571099736253586_7491560287992599264_n" translatesAutoresizingMaskIntoConstraints="NO" id="hzI-LZ-k56">
-                                <rect key="frame" x="212" y="471" width="180" height="180"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="180" id="EKm-MI-LFO"/>
-                                </constraints>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="125829769_2829881067226599_5051180527131803291_n" translatesAutoresizingMaskIntoConstraints="NO" id="7KY-5D-qDX">
-                                <rect key="frame" x="20" y="141" width="180" height="180"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="180" id="LKc-ss-tV5"/>
-                                    <constraint firstAttribute="width" constant="180" id="amL-f9-Ezz"/>
-                                </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(iOS Developer &amp; Designer)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sut-6z-bQS">
-                                <rect key="frame" x="212" y="231" width="182" height="22"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="22" id="xTg-Y5-zbt"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Italic" family="Helvetica Neue" pointSize="15"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="dfI-bE-C8a">
-                                <rect key="frame" x="18" y="329" width="378" height="133"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidataot .</string>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vasili Mandalac" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OKC-4g-IMn">
-                                <rect key="frame" x="47" y="536" width="133" height="25"/>
-                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="21"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(Web Developer &amp; Designer)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5yH-To-oV4">
-                                <rect key="frame" x="16" y="569" width="188" height="18"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Italic" family="Helvetica Neue" pointSize="15"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ion Ceban" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Zj-DF-ZUo">
-                                <rect key="frame" x="258.5" y="198" width="89" height="25"/>
-                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="21"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="hlc-Tf-gUu">
-                                <rect key="frame" x="13" y="671" width="379" height="133"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatato .</string>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About us" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Gy-bM-RJf">
                                 <rect key="frame" x="157" y="101" width="91" height="26"/>
                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ambitio" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="92a-Ip-PEY">
+                                <rect key="frame" x="181" y="336" width="59" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -652,39 +601,16 @@
                         <viewLayoutGuide key="safeArea" id="t2x-xJ-KMz"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="hlc-Tf-gUu" firstAttribute="leading" secondItem="t2x-xJ-KMz" secondAttribute="leading" constant="13" id="2kd-07-SwC"/>
-                            <constraint firstItem="dfI-bE-C8a" firstAttribute="leading" secondItem="t2x-xJ-KMz" secondAttribute="leading" constant="18" id="3ct-1G-u4P"/>
-                            <constraint firstItem="5yH-To-oV4" firstAttribute="top" secondItem="OKC-4g-IMn" secondAttribute="bottom" constant="8" id="6ye-F7-db6"/>
-                            <constraint firstItem="7KY-5D-qDX" firstAttribute="centerX" secondItem="5yH-To-oV4" secondAttribute="centerX" id="7GR-VV-V55"/>
-                            <constraint firstItem="OKC-4g-IMn" firstAttribute="centerX" secondItem="5yH-To-oV4" secondAttribute="centerX" constant="3.5" id="7Si-t6-JQ2"/>
-                            <constraint firstItem="hlc-Tf-gUu" firstAttribute="top" secondItem="hzI-LZ-k56" secondAttribute="bottom" constant="20" id="D6K-9s-5QS"/>
-                            <constraint firstItem="7KY-5D-qDX" firstAttribute="leading" secondItem="ne8-Rw-CIf" secondAttribute="leadingMargin" id="EA3-wk-wlN"/>
-                            <constraint firstItem="hzI-LZ-k56" firstAttribute="trailing" secondItem="hlc-Tf-gUu" secondAttribute="trailing" id="HgP-o4-xdj"/>
-                            <constraint firstItem="Sut-6z-bQS" firstAttribute="leading" secondItem="7KY-5D-qDX" secondAttribute="trailing" constant="12" id="Ic2-OK-TaK"/>
-                            <constraint firstItem="hzI-LZ-k56" firstAttribute="top" secondItem="dfI-bE-C8a" secondAttribute="bottom" constant="9" id="JBC-5C-Rre"/>
                             <constraint firstItem="1Gy-bM-RJf" firstAttribute="centerX" secondItem="ne8-Rw-CIf" secondAttribute="centerX" constant="-4.5" id="JGf-w0-uIr"/>
-                            <constraint firstAttribute="bottom" secondItem="OKC-4g-IMn" secondAttribute="bottom" constant="335" id="MpC-g2-PNT"/>
-                            <constraint firstItem="hzI-LZ-k56" firstAttribute="leading" secondItem="5yH-To-oV4" secondAttribute="trailing" constant="8" id="NCX-Tg-IsK"/>
-                            <constraint firstItem="1Gy-bM-RJf" firstAttribute="centerX" secondItem="dfI-bE-C8a" secondAttribute="centerX" constant="-4.5" id="NId-mF-6p6"/>
-                            <constraint firstItem="Sut-6z-bQS" firstAttribute="top" secondItem="4Zj-DF-ZUo" secondAttribute="bottom" constant="8" id="T6E-1V-gDy"/>
-                            <constraint firstItem="t2x-xJ-KMz" firstAttribute="trailing" secondItem="hzI-LZ-k56" secondAttribute="trailing" constant="22" id="UHd-Hf-U93"/>
                             <constraint firstItem="1Gy-bM-RJf" firstAttribute="leading" secondItem="t2x-xJ-KMz" secondAttribute="leading" constant="157" id="V1B-Nd-Us4"/>
-                            <constraint firstItem="dfI-bE-C8a" firstAttribute="top" secondItem="7KY-5D-qDX" secondAttribute="bottom" constant="8" id="YMd-Y4-cHC"/>
-                            <constraint firstItem="Sut-6z-bQS" firstAttribute="centerX" secondItem="4Zj-DF-ZUo" secondAttribute="centerX" id="Zmh-F4-hJ9"/>
-                            <constraint firstItem="7KY-5D-qDX" firstAttribute="top" secondItem="1Gy-bM-RJf" secondAttribute="bottom" constant="14" id="boB-W0-jFR"/>
-                            <constraint firstItem="t2x-xJ-KMz" firstAttribute="bottom" secondItem="hlc-Tf-gUu" secondAttribute="bottom" constant="58" id="fIq-l5-fhr"/>
-                            <constraint firstItem="dfI-bE-C8a" firstAttribute="top" secondItem="Sut-6z-bQS" secondAttribute="bottom" constant="76" id="oIw-mB-phT"/>
                             <constraint firstItem="1Gy-bM-RJf" firstAttribute="top" secondItem="t2x-xJ-KMz" secondAttribute="top" constant="13" id="rRr-29-iC3"/>
-                            <constraint firstItem="Sut-6z-bQS" firstAttribute="leading" secondItem="hzI-LZ-k56" secondAttribute="leading" id="uN9-wh-wxG"/>
-                            <constraint firstItem="OKC-4g-IMn" firstAttribute="top" secondItem="dfI-bE-C8a" secondAttribute="bottom" constant="74" id="yc5-b3-jhr"/>
-                            <constraint firstItem="OKC-4g-IMn" firstAttribute="leading" secondItem="t2x-xJ-KMz" secondAttribute="leading" constant="47" id="zMc-Xc-lPL"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Oy8-gJ-LYa"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OQj-NO-Cax" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="568" y="850"/>
+            <point key="canvasLocation" x="566.66666666666674" y="849.77678571428567"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="cvA-TG-xai">
@@ -2164,7 +2090,7 @@ Step 1. Preheat the oven to 350 F (176 C). Wash the eggplants and remove the ste
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="co7-QW-Uje">
                                                 <rect key="frame" x="32" y="524" width="350" height="264"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">• 3 to 4 garlic cloves, minced
+                                                <string key="text">• 3 to 4 garlic cloves, minced
 • 1/4 cup butter, cubed
 • 1/4 cup olive oil
 • 1 pound uncooked medium shrimp, peeled and deveined
@@ -2174,7 +2100,7 @@ Step 1. Preheat the oven to 350 F (176 C). Wash the eggplants and remove the ste
 • 1/2 cup grated Parmesan cheese 
 • 1/4 cup dry bread crumbs
 • 1/4 cup minced fresh parsley
-• Hot cooked angel hair pasta</mutableString>
+• Hot cooked angel hair pasta</string>
                                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -2182,7 +2108,7 @@ Step 1. Preheat the oven to 350 F (176 C). Wash the eggplants and remove the ste
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="200" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dZ2-Y1-FPG">
                                                 <rect key="frame" x="32" y="875" width="350" height="172"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">• In a 10-in. ovenproof skillet, saute garlic in butter and oil until fragrant. Add the shrimp, lemon juice, pepper and oregano; cook and stir until shrimp turn pink. Sprinkle with cheese, bread crumbs and parsley. Broil 6 in. from the heat for 2-3 minutes or until topping is golden brown. Serve with pasta.</mutableString>
+                                                <string key="text">• In a 10-in. ovenproof skillet, saute garlic in butter and oil until fragrant. Add the shrimp, lemon juice, pepper and oregano; cook and stir until shrimp turn pink. Sprinkle with cheese, bread crumbs and parsley. Broil 6 in. from the heat for 2-3 minutes or until topping is golden brown. Serve with pasta.</string>
                                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -2276,7 +2202,7 @@ Step 1. Preheat the oven to 350 F (176 C). Wash the eggplants and remove the ste
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="35" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HpH-Ka-cAM">
                                                 <rect key="frame" x="32" y="440" width="350" height="616"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">BROTH
+                                                <string key="text">BROTH
 
 • 2 tablespoon olive oil
 • 1 medium onion, finely chopped
@@ -2303,7 +2229,7 @@ SOUP
 • ¼ cup (½ stick) unsalted butter, cut into ½” cubes
 • salt and freshly ground black pepper
 • Flat-leaf parsley leaves (for serving)
-•Toasted country bread, rubbed with garlic and olive oil (for serving)</mutableString>
+•Toasted country bread, rubbed with garlic and olive oil (for serving)</string>
                                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -2311,7 +2237,7 @@ SOUP
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="200" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="frI-N5-ruT">
                                                 <rect key="frame" x="32" y="1141" width="350" height="1052"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">BROTH
+                                                <string key="text">BROTH
 
 Step 1
 
@@ -2333,7 +2259,7 @@ Heat oil in a large heavy pot over medium heat. Add shallot; stir often until so
 
 Step 5
 
-Add reserved broth; bring to a simmer. Add fish and shrimp. Cover; cook just until opaque, about 4 minutes. Stir in butter; season with salt and pepper. Divide among bowls; top with parsley. Serve with toast.</mutableString>
+Add reserved broth; bring to a simmer. Add fish and shrimp. Cover; cook just until opaque, about 4 minutes. Stir in butter; season with salt and pepper. Divide among bowls; top with parsley. Serve with toast.</string>
                                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -2413,7 +2339,7 @@ Add reserved broth; bring to a simmer. Add fish and shrimp. Cover; cook just unt
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m7w-b1-nLt">
                                                 <rect key="frame" x="32" y="310" width="350" height="183"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">Clams vary in brininess and the amount of liquid they’ll release during cooking, so you’ll need to adjust the salt and add pasta water accordingly. To prevent the sauce from getting too salty, we recommend a measured amount of salt for the pasta water. If possible, look for an artisanal dried pasta for this recipe—the rougher surface texture will catch the slippery sauce better.</mutableString>
+                                                <string key="text">Clams vary in brininess and the amount of liquid they’ll release during cooking, so you’ll need to adjust the salt and add pasta water accordingly. To prevent the sauce from getting too salty, we recommend a measured amount of salt for the pasta water. If possible, look for an artisanal dried pasta for this recipe—the rougher surface texture will catch the slippery sauce better.</string>
                                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -2421,7 +2347,7 @@ Add reserved broth; bring to a simmer. Add fish and shrimp. Cover; cook just unt
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uHI-Z0-faA">
                                                 <rect key="frame" x="32" y="588" width="350" height="338"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">• 2 tablespoons Diamond Crystal or 1 tablespoon Morton kosher salt, plus more
+                                                <string key="text">• 2 tablespoons Diamond Crystal or 1 tablespoon Morton kosher salt, plus more
 • 12 garlic cloves, divided
 • 4 ounces sourdough or country-style bread, crusts removed, cut into ½-inch pieces
 • 2 tablespoons plus ¼ cup olive oil, plus more for serving
@@ -2432,7 +2358,7 @@ Add reserved broth; bring to a simmer. Add fish and shrimp. Cover; cook just unt
 • 2 pounds littleneck clams (about 24) or cockles (about 32), scrubbed
 • 12 ounces linguine or spaghetti
 • ½ cup finely chopped parsley
-• 2 tablespoons unsalted butter</mutableString>
+• 2 tablespoons unsalted butter</string>
                                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -2440,7 +2366,7 @@ Add reserved broth; bring to a simmer. Add fish and shrimp. Cover; cook just unt
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="200" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gvy-Yh-p6B">
                                                 <rect key="frame" x="32" y="1014" width="350" height="1403"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">Step 1
+                                                <string key="text">Step 1
 
 Bring 2 Tbsp. Diamond Crystal salt and 10 cups water to a boil in a large pot.
 
@@ -2462,7 +2388,7 @@ Cook pasta in boiling water 5 minutes. Using a ladle or heatproof measuring cup,
 
 Step 6
 
-Remove from heat. Add parsley and butter and toss until butter is melted. Sprinkle about one-third of breadcrumbs over pasta and toss to combine (you can add more or less depending on how much liquid is in bottom of pot—you want them to absorb some of the sauce but not make it dry). Give pasta a taste; you probably won’t need additional salt, but you can add some if you’d like. Divide pasta among shallow bowls and top with reserved clams, more breadcrumbs, red pepper flakes, and a drizzle of oil.</mutableString>
+Remove from heat. Add parsley and butter and toss until butter is melted. Sprinkle about one-third of breadcrumbs over pasta and toss to combine (you can add more or less depending on how much liquid is in bottom of pot—you want them to absorb some of the sauce but not make it dry). Give pasta a taste; you probably won’t need additional salt, but you can add some if you’d like. Divide pasta among shallow bowls and top with reserved clams, more breadcrumbs, red pepper flakes, and a drizzle of oil.</string>
                                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -2542,13 +2468,13 @@ Remove from heat. Add parsley and butter and toss until butter is melted. Sprink
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="200" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wAd-3o-QiS">
                                                 <rect key="frame" x="32" y="887" width="350" height="497"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">• To make our recipe for sweet and sour mackerel with mustard sauce and zucchini, start by cleaning the zucchini, slice them into sticks and blanch in a pan with a drizzle of oil for 2 minutes. Then add one sage leaf, one bay leaf, a sprig of rosemary and two tablespoons of pine nuts (previously toasted).
+                                                <string key="text">• To make our recipe for sweet and sour mackerel with mustard sauce and zucchini, start by cleaning the zucchini, slice them into sticks and blanch in a pan with a drizzle of oil for 2 minutes. Then add one sage leaf, one bay leaf, a sprig of rosemary and two tablespoons of pine nuts (previously toasted).
 
 • Mix, season and blend with 3-4 tablespoons of apple cider vinegar; add 15 g brown sugar, let the vinegar evaporate and continue cooking for another minute. Mix 2 tablespoons of rustic mustard with a tablespoon of oil, half a teaspoon of finely chopped shallot, 1 tablespoon of mayonnaise and 1 tablespoon of water.
 
 • For the mackerel:
 Cook the mackerel fillets in a non-stick pan with a drizzle of oil and a pinch of salt skin side down for 3-4 minutes. Then turn them over, turn off the heat and let them rest for 3-4 more minutes. Serve them with the sweet and sour zucchini and mustard sauce.
-</mutableString>
+</string>
                                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -2680,7 +2606,7 @@ Cook the mackerel fillets in a non-stick pan with a drizzle of oil and a pinch o
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="200" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rSg-LX-9XH">
                                                 <rect key="frame" x="32" y="855" width="350" height="501"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">Step 1
+                                                <string key="text">Step 1
 
 Heat oil in a medium pot over medium-high. Add fennel and shallots and cook, stirring often, until fragrant and beginning to soften, about 2 minutes. Add garlic, season with salt, and cook, stirring constantly, until fragrant, about 1 minute.
 
@@ -2690,7 +2616,7 @@ Add mussels and stir gently once or twice to coat with oil. Pour in beer and sti
 
 Step 3
 
-Transfer mussels and sauce to a serving bowl and top with tarragon. Serve with bread alongside for dipping.</mutableString>
+Transfer mussels and sauce to a serving bowl and top with tarragon. Serve with bread alongside for dipping.</string>
                                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -2741,19 +2667,17 @@ Transfer mussels and sauce to a serving bowl and top with tarragon. Serve with b
         <segue reference="AlF-xt-2xF"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="118579948_3571099736253586_7491560287992599264_n" width="170" height="170"/>
-        <image name="125829769_2829881067226599_5051180527131803291_n" width="157" height="157"/>
         <image name="Beef Stroganof" width="328" height="208"/>
         <image name="Borsch" width="328" height="208"/>
         <image name="Cheese Dumplings" width="128" height="128"/>
         <image name="Cheese Pie" width="128" height="128"/>
         <image name="Fried Fish" width="128" height="128"/>
-        <image name="Greek R" width="842" height="382"/>
-        <image name="Italy R" width="421" height="191"/>
+        <image name="Greek R" width="830" height="374"/>
+        <image name="Italy R" width="832" height="380"/>
         <image name="Logo" width="1143" height="1146"/>
         <image name="Mackerel" width="128" height="128"/>
-        <image name="Moldavian" width="416" height="191"/>
-        <image name="Russian" width="832" height="382"/>
+        <image name="Moldavian" width="828" height="380"/>
+        <image name="Russian" width="830" height="380"/>
         <image name="beef macaroane" width="128" height="128"/>
         <image name="beets soup" width="128" height="128"/>
         <image name="chickenlemon-1" width="326" height="208"/>
@@ -2788,9 +2712,6 @@ Transfer mussels and sauce to a serving bowl and top with tarragon. Serve with b
         <image name="stuffed cabages" width="128" height="128"/>
         <image name="uha" width="128" height="128"/>
         <image name="ukhha" width="328" height="208"/>
-        <systemColor name="labelColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
