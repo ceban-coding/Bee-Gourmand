@@ -275,7 +275,7 @@
             </objects>
             <point key="canvasLocation" x="-1059.4202898550725" y="-1355.3571428571429"/>
         </scene>
-        <!--View Controller-->
+        <!--Moldavian Recipes List-->
         <scene sceneID="pkU-IC-emo">
             <objects>
                 <viewController id="pbA-E4-jRz" sceneMemberID="viewController">
@@ -283,15 +283,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Moldavian Recipes List" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hDa-0e-Ecz">
-                                <rect key="frame" x="91" y="105" width="226" height="25"/>
-                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                                <size key="shadowOffset" width="0.0" height="0.0"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6gn-HY-5cc">
-                                <rect key="frame" x="15" y="145" width="390" height="130"/>
+                                <rect key="frame" x="15" y="148" width="390" height="130"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="130" id="boH-zn-Qap"/>
                                 </constraints>
@@ -301,14 +294,14 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Qm-gN-4jn">
-                                <rect key="frame" x="15" y="283" width="390" height="131"/>
+                                <rect key="frame" x="15" y="286" width="390" height="128"/>
                                 <state key="normal" title="Button" image="Cheese Dumplings"/>
                                 <connections>
                                     <segue destination="eKj-jh-zG5" kind="show" id="2w5-XV-z9H"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cheese Dumplings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="prh-wq-7ag">
-                                <rect key="frame" x="166" y="337" width="140" height="20"/>
+                                <rect key="frame" x="166" y="340" width="140" height="20"/>
                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -338,7 +331,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Polenta with Cheese" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mCT-RQ-A5T">
-                                <rect key="frame" x="166" y="199" width="155" height="20"/>
+                                <rect key="frame" x="166" y="202" width="155" height="20"/>
                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -365,7 +358,6 @@
                         <viewLayoutGuide key="safeArea" id="rMw-Ax-51J"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="6gn-HY-5cc" firstAttribute="top" secondItem="hDa-0e-Ecz" secondAttribute="bottom" constant="15" id="10E-1q-fFo"/>
                             <constraint firstItem="6gn-HY-5cc" firstAttribute="leading" secondItem="mWf-br-YcE" secondAttribute="leading" id="2LA-2g-Xxf"/>
                             <constraint firstItem="6gn-HY-5cc" firstAttribute="leading" secondItem="2Qm-gN-4jn" secondAttribute="leading" id="3Eu-w9-xW5"/>
                             <constraint firstItem="lCx-y4-0CS" firstAttribute="centerY" secondItem="mWf-br-YcE" secondAttribute="centerY" id="3Kg-md-W94"/>
@@ -385,8 +377,6 @@
                             <constraint firstItem="92V-7S-7Do" firstAttribute="firstBaseline" secondItem="7bX-GY-zWn" secondAttribute="firstBaseline" id="TPf-Df-Efl"/>
                             <constraint firstItem="6gn-HY-5cc" firstAttribute="trailing" secondItem="2Qm-gN-4jn" secondAttribute="trailing" id="VB5-5T-kCR"/>
                             <constraint firstItem="rMw-Ax-51J" firstAttribute="trailing" secondItem="mCT-RQ-A5T" secondAttribute="trailing" constant="93" id="b5s-Pc-LQB"/>
-                            <constraint firstItem="hDa-0e-Ecz" firstAttribute="leading" secondItem="rMw-Ax-51J" secondAttribute="leading" constant="91" id="beL-xE-ZfU"/>
-                            <constraint firstItem="rMw-Ax-51J" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="hDa-0e-Ecz" secondAttribute="trailing" symbolic="YES" id="boX-el-0ZZ"/>
                             <constraint firstItem="7bX-GY-zWn" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="lCx-y4-0CS" secondAttribute="leading" id="dIW-cc-N3O"/>
                             <constraint firstItem="rMw-Ax-51J" firstAttribute="trailing" secondItem="6gn-HY-5cc" secondAttribute="trailing" constant="9" id="db2-hc-KhA"/>
                             <constraint firstItem="2Qm-gN-4jn" firstAttribute="top" secondItem="mCT-RQ-A5T" secondAttribute="bottom" constant="64" id="hVt-CS-2He"/>
@@ -402,17 +392,16 @@
                             <constraint firstItem="7bX-GY-zWn" firstAttribute="leading" secondItem="rMw-Ax-51J" secondAttribute="leading" constant="166" id="wPU-fY-U4H"/>
                             <constraint firstItem="6gn-HY-5cc" firstAttribute="trailing" secondItem="92V-7S-7Do" secondAttribute="trailing" id="wXt-EM-PVc"/>
                             <constraint firstAttribute="bottom" secondItem="GID-Uc-Yia" secondAttribute="bottom" constant="395" id="wwp-mR-uo9"/>
-                            <constraint firstItem="hDa-0e-Ecz" firstAttribute="top" secondItem="rMw-Ax-51J" secondAttribute="top" constant="17" id="zEH-pu-gJW"/>
                             <constraint firstItem="rMw-Ax-51J" firstAttribute="trailing" secondItem="lCx-y4-0CS" secondAttribute="trailing" constant="118" id="zEf-aa-GpC"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="aeG-nN-7zX"/>
+                    <navigationItem key="navigationItem" title="Moldavian Recipes List" id="aeG-nN-7zX"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MuK-E8-GLo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="796" y="-604"/>
         </scene>
-        <!--View Controller-->
+        <!--Italian Recipes List-->
         <scene sceneID="dz0-Ko-o7z">
             <objects>
                 <viewController id="r5T-Uv-MbG" sceneMemberID="viewController">
@@ -420,17 +409,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Italian Recipes List" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y4a-Cu-oXp">
-                                <rect key="frame" x="113" y="105" width="188" height="26"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="26" id="2BB-rs-TUo"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uQv-r2-Y08">
-                                <rect key="frame" x="15" y="146" width="390" height="130"/>
+                                <rect key="frame" x="15" y="147" width="390" height="130"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="130" id="FBp-Lh-hYQ"/>
                                 </constraints>
@@ -440,7 +420,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XxS-M6-buu">
-                                <rect key="frame" x="15" y="288" width="390" height="129"/>
+                                <rect key="frame" x="15" y="289" width="390" height="128"/>
                                 <state key="normal" title="Button" image="ciopinno"/>
                                 <connections>
                                     <segue destination="yAX-4K-7oA" kind="show" id="VCn-xf-KUa"/>
@@ -474,13 +454,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shrimp Scampi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dpM-qY-ain">
-                                <rect key="frame" x="173" y="201" width="116" height="20"/>
+                                <rect key="frame" x="173" y="202" width="116" height="20"/>
                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ciopinno" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8QZ-eQ-Eo3">
-                                <rect key="frame" x="176" y="342.5" width="68" height="20"/>
+                                <rect key="frame" x="176" y="343" width="68" height="20"/>
                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -516,12 +496,10 @@
                             <constraint firstItem="khq-4K-Qqx" firstAttribute="trailing" secondItem="uQv-r2-Y08" secondAttribute="trailing" constant="9" id="DGt-61-hwC"/>
                             <constraint firstItem="uQv-r2-Y08" firstAttribute="leading" secondItem="87W-qA-eiG" secondAttribute="leading" id="I85-i0-IUi"/>
                             <constraint firstItem="uQv-r2-Y08" firstAttribute="trailing" secondItem="Qpl-WZ-a9R" secondAttribute="trailing" id="Iax-py-cv0"/>
-                            <constraint firstItem="y4a-Cu-oXp" firstAttribute="centerX" secondItem="4VW-qe-BAI" secondAttribute="centerX" id="J9e-Wp-NUI"/>
                             <constraint firstItem="87W-qA-eiG" firstAttribute="top" secondItem="4VW-qe-BAI" secondAttribute="top" constant="429" id="M7b-uc-21g"/>
                             <constraint firstItem="8QZ-eQ-Eo3" firstAttribute="centerY" secondItem="XxS-M6-buu" secondAttribute="centerY" id="MYF-HC-rNy"/>
                             <constraint firstItem="8QZ-eQ-Eo3" firstAttribute="leading" secondItem="dqF-QE-Gba" secondAttribute="leading" id="MdE-lK-x1l"/>
                             <constraint firstItem="YZ7-D9-qXe" firstAttribute="top" secondItem="Qpl-WZ-a9R" secondAttribute="bottom" constant="69" id="N02-4p-d8t"/>
-                            <constraint firstItem="dpM-qY-ain" firstAttribute="top" secondItem="y4a-Cu-oXp" secondAttribute="bottom" constant="70" id="OY5-uu-cjN"/>
                             <constraint firstItem="Bu9-Tc-i5p" firstAttribute="firstBaseline" secondItem="YZ7-D9-qXe" secondAttribute="firstBaseline" id="OzX-4W-aH4"/>
                             <constraint firstItem="Bu9-Tc-i5p" firstAttribute="baseline" secondItem="YZ7-D9-qXe" secondAttribute="baseline" id="QBo-L2-x5f"/>
                             <constraint firstItem="uQv-r2-Y08" firstAttribute="leading" secondItem="khq-4K-Qqx" secondAttribute="leading" constant="15" id="Stl-8N-RQN"/>
@@ -535,14 +513,12 @@
                             <constraint firstItem="uQv-r2-Y08" firstAttribute="leading" secondItem="Bu9-Tc-i5p" secondAttribute="leading" id="ZcU-J5-VaY"/>
                             <constraint firstItem="uQv-r2-Y08" firstAttribute="leading" secondItem="Qpl-WZ-a9R" secondAttribute="leading" id="aRL-pT-WEz"/>
                             <constraint firstItem="XxS-M6-buu" firstAttribute="top" secondItem="dpM-qY-ain" secondAttribute="bottom" constant="67" id="axc-8V-7KE"/>
-                            <constraint firstItem="uQv-r2-Y08" firstAttribute="top" secondItem="y4a-Cu-oXp" secondAttribute="bottom" constant="15" id="baX-9r-2mx"/>
                             <constraint firstItem="uQv-r2-Y08" firstAttribute="trailing" secondItem="XxS-M6-buu" secondAttribute="trailing" id="cJU-8r-PgB"/>
                             <constraint firstItem="dpM-qY-ain" firstAttribute="leading" secondItem="khq-4K-Qqx" secondAttribute="leading" constant="173" id="cm7-QU-iBV"/>
                             <constraint firstItem="8QZ-eQ-Eo3" firstAttribute="baseline" secondItem="XxS-M6-buu" secondAttribute="firstBaseline" id="g3m-lJ-bI4"/>
                             <constraint firstItem="YZ7-D9-qXe" firstAttribute="centerX" secondItem="dqF-QE-Gba" secondAttribute="centerX" id="gZe-I7-3Yt"/>
                             <constraint firstItem="Bu9-Tc-i5p" firstAttribute="top" secondItem="Qpl-WZ-a9R" secondAttribute="bottom" constant="14" id="iAk-1w-7io"/>
                             <constraint firstItem="khq-4K-Qqx" firstAttribute="trailing" secondItem="YZ7-D9-qXe" secondAttribute="trailing" constant="103" id="img-o4-Me1"/>
-                            <constraint firstItem="y4a-Cu-oXp" firstAttribute="top" secondItem="khq-4K-Qqx" secondAttribute="top" constant="17" id="jef-AR-8Cq"/>
                             <constraint firstItem="khq-4K-Qqx" firstAttribute="bottom" secondItem="YZ7-D9-qXe" secondAttribute="bottom" constant="73" id="rc9-OL-rw4"/>
                             <constraint firstItem="uQv-r2-Y08" firstAttribute="trailing" secondItem="87W-qA-eiG" secondAttribute="trailing" id="tTR-Zi-gwc"/>
                             <constraint firstItem="YZ7-D9-qXe" firstAttribute="leading" secondItem="khq-4K-Qqx" secondAttribute="leading" constant="176" id="wNZ-Sr-Bm2"/>
@@ -551,7 +527,7 @@
                             <constraint firstItem="qwJ-VF-p6W" firstAttribute="top" secondItem="87W-qA-eiG" secondAttribute="bottom" constant="67" id="z4s-Sp-8y0"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="k2l-gl-Eg7"/>
+                    <navigationItem key="navigationItem" title="Italian Recipes List" id="k2l-gl-Eg7"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1oJ-wt-H2A" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1787,7 +1763,7 @@ Vasili Mandalac(Full Stack Web Developer)
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Russian Recipes List" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MkJ-UE-mOO">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MkJ-UE-mOO">
                                 <rect key="frame" x="107" y="104" width="208" height="26"/>
                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
                                 <nil key="textColor"/>
