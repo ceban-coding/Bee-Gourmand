@@ -437,8 +437,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uQv-r2-Y08">
-                                <rect key="frame" x="15" y="145" width="390" height="130"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uQv-r2-Y08">
+                                <rect key="frame" x="15" y="146" width="390" height="130"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="130" id="FBp-Lh-hYQ"/>
                                 </constraints>
@@ -447,9 +447,12 @@
                                     <segue destination="R2s-Vu-RGg" kind="show" id="ore-2Q-04b"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XxS-M6-buu">
-                                <rect key="frame" x="15" y="287" width="390" height="130"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XxS-M6-buu">
+                                <rect key="frame" x="15" y="288" width="390" height="129"/>
                                 <state key="normal" title="Button" image="ciopinno"/>
+                                <connections>
+                                    <segue destination="yAX-4K-7oA" kind="show" id="VCn-xf-KUa"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="87W-qA-eiG">
                                 <rect key="frame" x="15" y="429" width="390" height="130"/>
@@ -457,10 +460,16 @@
                                     <constraint firstAttribute="height" constant="130" id="XPO-Q4-HDk"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="liguini"/>
+                                <connections>
+                                    <segue destination="kjp-rR-TNz" kind="show" id="ATS-do-f5x"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qpl-WZ-a9R">
                                 <rect key="frame" x="15" y="571" width="390" height="128"/>
                                 <state key="normal" title="Button" image="Mackerel"/>
+                                <connections>
+                                    <segue destination="9pl-zv-ugk" kind="show" id="ZRh-Nl-5Fg"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bu9-Tc-i5p">
                                 <rect key="frame" x="15" y="713" width="390" height="130"/>
@@ -468,9 +477,12 @@
                                     <constraint firstAttribute="height" constant="130" id="iOm-fe-NAh"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="steamed mussels"/>
+                                <connections>
+                                    <segue destination="0Yh-Tw-DpD" kind="show" id="ai9-SE-d55"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Shrimp Scampi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dpM-qY-ain">
-                                <rect key="frame" x="173" y="200" width="116" height="20"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shrimp Scampi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dpM-qY-ain">
+                                <rect key="frame" x="173" y="201" width="116" height="20"/>
                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -547,7 +559,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1oJ-wt-H2A" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4622" y="-617"/>
+            <point key="canvasLocation" x="4494" y="-604"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="N6a-XT-46F">
@@ -1222,8 +1234,8 @@ It is usually served with polenta (mămăliga) and garlic, oil, and vinegar sauc
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YMZ-bg-h9p">
-                                <rect key="frame" x="20" y="138" width="120" height="120"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YMZ-bg-h9p">
+                                <rect key="frame" x="9" y="138" width="395" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="beets soup"/>
                                 <connections>
@@ -1260,17 +1272,6 @@ It is usually served with polenta (mămăliga) and garlic, oil, and vinegar sauc
                                 <state key="normal" title="Button" image="uha"/>
                                 <connections>
                                     <segue destination="Byj-Yw-X6V" kind="show" id="Uan-aU-28Z"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DuL-C1-aZW">
-                                <rect key="frame" x="162" y="138" width="232" height="112"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
-                                <state key="normal" title="Beetroot Soup (Borhch)">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="nF6-D5-5g8" kind="show" id="0a1-id-xOJ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xVj-im-AzK">
@@ -1317,6 +1318,13 @@ It is usually served with polenta (mămăliga) and garlic, oil, and vinegar sauc
                                     <segue destination="BOk-mn-Ahw" kind="show" id="MC0-La-31s"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Beetr" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fWy-fJ-4pf">
+                                <rect key="frame" x="168" y="188" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="cfv-EP-yF1"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1329,7 +1337,7 @@ It is usually served with polenta (mămăliga) and garlic, oil, and vinegar sauc
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Upc-9f-Tbe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1603" y="1205"/>
+            <point key="canvasLocation" x="1602.8985507246377" y="1204.6875"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="uAn-m2-vOX">
@@ -2125,95 +2133,71 @@ Step 1. Preheat the oven to 350 F (176 C). Wash the eggplants and remove the ste
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t6v-AJ-2Ci">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1075"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fryfish pic" translatesAutoresizingMaskIntoConstraints="NO" id="WxU-fJ-Q9j">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="scampi pic" translatesAutoresizingMaskIntoConstraints="NO" id="WxU-fJ-Q9j">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="262"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Moldovan Cheese Pie" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LNL-UM-NpQ">
-                                                <rect key="frame" x="61" y="260" width="292" height="50"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Shrimp Scampi" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LNL-UM-NpQ">
+                                                <rect key="frame" x="61" y="260" width="292" height="24"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="18"/>
                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ingredients" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lWZ-GJ-tAF">
-                                                <rect key="frame" x="150" y="582" width="114" height="26"/>
+                                                <rect key="frame" x="150" y="458" width="114" height="26"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Directions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J5O-j2-LLC">
-                                                <rect key="frame" x="156" y="780" width="102" height="22"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KFo-l9-4ue">
+                                                <rect key="frame" x="32" y="310" width="350" height="100"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
-                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KFo-l9-4ue">
-                                                <rect key="frame" x="32" y="310" width="350" height="264"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">Pește prăjit is a tasty Moldovan seafood dish. This fish dish is usually made with Crucian carp, a river fish with plenty of nutrients.
-
-To make this dish, the fish is first coated with cornflour. Each fish is then fried in oil until brown.
-
-It is usually served with polenta (mămăliga) and garlic, oil, and vinegar sauce (‘mujdei’) we talked about above. It is a delicious way to enjoy Crucian carp.</string>
+                                                <string key="text">This shrimp scampi recipe looks elegant enough to serve to company, but it’s easy to prepare. The bright flavors of lemon and herbs enhance the shrimp. Serve it over pasta and wait for the compliments.</string>
                                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="co7-QW-Uje">
-                                                <rect key="frame" x="32" y="633" width="350" height="102"/>
+                                                <rect key="frame" x="32" y="524" width="350" height="264"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">• 600-700 g freshly caught carp
-• 400 g corn maize
-• 1 whole garlic
-• some olive oil
-• some salt and pepper</string>
+                                                <mutableString key="text">• 3 to 4 garlic cloves, minced
+• 1/4 cup butter, cubed
+• 1/4 cup olive oil
+• 1 pound uncooked medium shrimp, peeled and deveined
+• 1/4 cup lemon juice
+• 1/2 teaspoon pepper
+• 1/4 teaspoon dried oregano
+• 1/2 cup grated Parmesan cheese 
+• 1/4 cup dry bread crumbs
+• 1/4 cup minced fresh parsley
+• Hot cooked angel hair pasta</mutableString>
                                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="200" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dZ2-Y1-FPG">
-                                                <rect key="frame" x="32" y="832" width="350" height="1149"/>
+                                                <rect key="frame" x="32" y="875" width="350" height="172"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">• Remove the carp's head and bowels and throw them away. Don't remove the flippers. Slice the fish in more manageable pieces and remove every scale you can find with a knife or a special tool:
-
-• After you're done de-scaling, put the fish pieces in a large bowl:
-
-• Cut the fish into thinner slices .
-
-• When you're done, put all the pieces in a bowl:
-
-• Cover the bottom of a large plate with some corn maize:
-
-• Heat some cooking oil in a large frying pan (traditionally sunflower kernel oil is used, but we preferred olive oil):
-
-• Add some salt and pepper to the corn maize plate, mix and start pressing each fish piece into it on all sides:
-
-• Once you covered a fish piece in maize, put it in the frying pan:
-
-• Repeat the procedure for more pieces until the pan is full (each piece should be in direct contact with the pan's surface):
-
-• Let them fry for about 7-10 minutes on medium-high heat intensity (but adapt according to the thickness). Turn them on the other side and let them fry for another 7-10 minutes until they're done.
-
-• Repeat the procedure for the remaining fish pieces. In the meantime, peel and clean the garlic:
-
-• Prepare a smashing device for the garlic. The wooden one shown here is a Moldavian traditional one specially designed for garlic sauce, called a mojdei.
-
-•  Put the cleansed garlic cloves in your device and smash them until they gain a creamy consistency:
-
-• If you want, you may add some olive oil and the juice from half a lemon to the sauce and mix again, but the traditional (and somewhat too intense and raw tasting version) is only supposed to contain garlic, salt and maybe a spoon of water to make it more fluid. We went non-traditional.</string>
+                                                <mutableString key="text">• In a 10-in. ovenproof skillet, saute garlic in butter and oil until fragrant. Add the shrimp, lemon juice, pepper and oregano; cook and stir until shrimp turn pink. Sprinkle with cheese, bread crumbs and parsley. Broil 6 in. from the heat for 2-3 minutes or until topping is golden brown. Serve with pasta.</mutableString>
                                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Directions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J5O-j2-LLC">
+                                                <rect key="frame" x="156" y="823" width="102" height="22"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="2000" id="cgI-8v-i2G"/>
+                                            <constraint firstAttribute="height" constant="1075" id="cgI-8v-i2G"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -2241,7 +2225,508 @@ It is usually served with polenta (mămăliga) and garlic, oil, and vinegar sauc
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vfF-ZE-Ha6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4066.666666666667" y="-1355.3571428571429"/>
+            <point key="canvasLocation" x="3986.9565217391309" y="-1355.3571428571429"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="mWX-R7-ZJa">
+            <objects>
+                <viewController id="yAX-4K-7oA" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XO4-pF-cHC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bir-8z-qvO">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lii-h8-Lon">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2200"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ciopinno pic" translatesAutoresizingMaskIntoConstraints="NO" id="hsD-aC-8jW">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="262"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cioppino" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EP9-Wu-yrI">
+                                                <rect key="frame" x="61" y="260" width="292" height="23"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="18"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ingredients" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d6q-47-89a">
+                                                <rect key="frame" x="150" y="394" width="114" height="26"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Directions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U9b-0Q-tfI">
+                                                <rect key="frame" x="156" y="1089" width="102" height="22"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cioppino recipe uses bottled clam juice, a smart shortcut to a robust broth." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hwG-MO-lT4">
+                                                <rect key="frame" x="32" y="310" width="350" height="48"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="35" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HpH-Ka-cAM">
+                                                <rect key="frame" x="32" y="440" width="350" height="616"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">BROTH
+
+• 2 tablespoon olive oil
+• 1 medium onion, finely chopped
+• 4 garlic cloves, chopped
+• 1 teaspoon dried basil
+• 1 teaspoon dried oregano
+• ½ teaspoon crushed red pepper flakes
+• 1 cup dry white wine
+•  28-oz. can whole peeled tomatoes
+• 2 bottles clam juice 8-oz. 
+• 4 sprigs flat-leaf parsley
+• 2 bay leaves
+• Kosher salt and freshly ground black pepper
+
+SOUP
+
+• 2 tablespoons olive oil
+• 1 medium shallot, finely chopped
+• 2 cloves garlic cloves, thinly sliced
+ • 2 lb any mix of mussels (debearded), clams, or cockles, scrubbed
+• ¼ cup dry white wine
+• 1 lb firm skinless white fish fillets (such as sea bass), cut into 1” pieces
+• 1 lb large shrimp, peeled, deveined, tails left intact
+• ¼ cup (½ stick) unsalted butter, cut into ½” cubes
+• salt and freshly ground black pepper
+• Flat-leaf parsley leaves (for serving)
+•Toasted country bread, rubbed with garlic and olive oil (for serving)</mutableString>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="200" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="frI-N5-ruT">
+                                                <rect key="frame" x="32" y="1141" width="350" height="1052"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">BROTH
+
+Step 1
+
+Heat oil in a large heavy pot over medium heat. Add onion and cook, stirring occasionally, until softened, 8–10 minutes. Add garlic, basil, oregano, and red pepper flakes; stir until fragrant, about 3 minutes. Remove pot from heat and add wine. Return pot to heat, bring to a boil, and cook until wine is reduced by half, about 4 minutes. Add tomatoes with juices, crushing with your hands as you add them.
+
+Step 2
+
+Cook, stirring occasionally, until thickened, 15–20 minutes. Add clam juice, parsley, bay leaves, and 8 cups water; season with salt and pepper. Bring to a boil, reduce heat, and simmer until flavors meld, 10–15 minutes more. Discard parsley sprigs and bay leaves.
+
+Step 3
+
+DO AHEAD: Broth can be made 2 days ahead. Let cool slightly; chill until cold. Cover and keep chilled. Reheat before continuing.
+
+SOUP
+
+Step 4
+
+Heat oil in a large heavy pot over medium heat. Add shallot; stir often until softened, about 3 minutes. Add garlic; stir until fragrant, about 1 minute. Remove from heat; add mussels and wine. Set over medium-high heat, cover, and cook, stirring occasionally, until shells open (discard any that do not open), about 4 minutes.
+
+Step 5
+
+Add reserved broth; bring to a simmer. Add fish and shrimp. Cover; cook just until opaque, about 4 minutes. Stir in butter; season with salt and pepper. Divide among bowls; top with parsley. Serve with toast.</mutableString>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="2200" id="f5g-Kr-hdm"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Lii-h8-Lon" firstAttribute="bottom" secondItem="jRG-xY-XqL" secondAttribute="bottom" id="5Df-Fe-qxI"/>
+                                    <constraint firstItem="Lii-h8-Lon" firstAttribute="width" secondItem="YNJ-mt-RyU" secondAttribute="width" id="dc6-bg-NTc"/>
+                                    <constraint firstItem="Lii-h8-Lon" firstAttribute="trailing" secondItem="jRG-xY-XqL" secondAttribute="trailing" id="iR7-Rx-AgK"/>
+                                    <constraint firstItem="jRG-xY-XqL" firstAttribute="top" secondItem="Lii-h8-Lon" secondAttribute="top" id="yKu-gD-cCm"/>
+                                    <constraint firstItem="Lii-h8-Lon" firstAttribute="leading" secondItem="jRG-xY-XqL" secondAttribute="leading" id="zA8-K3-aAA"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="jRG-xY-XqL"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="YNJ-mt-RyU"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ZSq-oO-Ux4"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="bir-8z-qvO" secondAttribute="bottom" id="6Wp-X8-dwv"/>
+                            <constraint firstItem="bir-8z-qvO" firstAttribute="top" secondItem="XO4-pF-cHC" secondAttribute="top" id="Ddr-5X-O0W"/>
+                            <constraint firstItem="bir-8z-qvO" firstAttribute="trailing" secondItem="ZSq-oO-Ux4" secondAttribute="trailing" id="sKU-Aa-V4e"/>
+                            <constraint firstItem="bir-8z-qvO" firstAttribute="leading" secondItem="ZSq-oO-Ux4" secondAttribute="leading" id="xW4-aE-8Q5"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="VrF-ru-s5s"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kzg-8x-Orp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4842.0289855072469" y="-1355.3571428571429"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ms7-TD-QKL">
+            <objects>
+                <viewController id="kjp-rR-TNz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kGx-JV-WGt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tPL-cR-G9P">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o0N-kH-5q5">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2450"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="linguini pic" translatesAutoresizingMaskIntoConstraints="NO" id="jI7-28-niI">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="262"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Linguine and Clams" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lqs-ad-bsS">
+                                                <rect key="frame" x="61" y="260" width="292" height="28"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="18"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ingredients" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dLR-aj-mdt">
+                                                <rect key="frame" x="150" y="521" width="114" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Directions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ro2-yN-fgX">
+                                                <rect key="frame" x="156" y="954" width="102" height="22"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m7w-b1-nLt">
+                                                <rect key="frame" x="32" y="310" width="350" height="183"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">Clams vary in brininess and the amount of liquid they’ll release during cooking, so you’ll need to adjust the salt and add pasta water accordingly. To prevent the sauce from getting too salty, we recommend a measured amount of salt for the pasta water. If possible, look for an artisanal dried pasta for this recipe—the rougher surface texture will catch the slippery sauce better.</mutableString>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uHI-Z0-faA">
+                                                <rect key="frame" x="32" y="588" width="350" height="338"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">• 2 tablespoons Diamond Crystal or 1 tablespoon Morton kosher salt, plus more
+• 12 garlic cloves, divided
+• 4 ounces sourdough or country-style bread, crusts removed, cut into ½-inch pieces
+• 2 tablespoons plus ¼ cup olive oil, plus more for serving
+• 2 teaspoons finely grated lemon zest
+• 2 oil-packed anchovy fillets (optional)
+• ½ teaspoon crushed red pepper flakes, plus more for serving
+• ⅓ cup dry white wine
+• 2 pounds littleneck clams (about 24) or cockles (about 32), scrubbed
+• 12 ounces linguine or spaghetti
+• ½ cup finely chopped parsley
+• 2 tablespoons unsalted butter</mutableString>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="200" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gvy-Yh-p6B">
+                                                <rect key="frame" x="32" y="1014" width="350" height="1403"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">Step 1
+
+Bring 2 Tbsp. Diamond Crystal salt and 10 cups water to a boil in a large pot.
+
+Step 2
+
+Meanwhile, pulse 3 garlic cloves in a food processor until chopped. Add bread and pulse several times until fine crumbs form.
+
+Step 3
+
+Heat 2 Tbsp. oil in a large Dutch oven over medium-high. Add breadcrumb mixture and cook, stirring often, until crumbs are golden and crisp, 5–7 minutes. Transfer to a medium bowl. Add lemon zest, season with salt, and toss to combine; set aside.
+
+Step 4
+
+Wipe out Dutch oven. Using a mandoline if you have one (if not, use a really sharp knife), very thinly slice remaining 9 garlic cloves. Heat ¼ cup oil in Dutch oven over medium. Cook garlic, stirring often, until golden around the edges, about 3 minutes. Add anchovies, if using, and ½ tsp. red pepper flakes and cook, stirring, until garlic is golden all over and anchovies are dissolved. Quickly stir in wine and simmer until only a couple of tablespoons of liquid are left in pot. Add clams and toss to combine. Cover and cook until clams are open, 5–7 minutes (about 4 minutes for cockles). Uncover pot and transfer clams to a medium bowl, leaving liquid in pot. If any clams are still closed, cover pot again and cook a few minutes longer, then transfer to bowl with others (discard any that have not opened at this point). Tent clams with foil.
+
+Step 5
+
+Cook pasta in boiling water 5 minutes. Using a ladle or heatproof measuring cup, scoop out about 2 cups pasta cooking liquid. Using tongs, transfer pasta to pot with clam liquid. Add 1 cup pasta cooking liquid and bring to a boil. Cook, tossing constantly and adding more pasta cooking liquid a splash at a time if needed, until pasta is al dente and sauce is glossy and thick enough to cling to noodles, about 5 minutes.
+
+Step 6
+
+Remove from heat. Add parsley and butter and toss until butter is melted. Sprinkle about one-third of breadcrumbs over pasta and toss to combine (you can add more or less depending on how much liquid is in bottom of pot—you want them to absorb some of the sauce but not make it dry). Give pasta a taste; you probably won’t need additional salt, but you can add some if you’d like. Divide pasta among shallow bowls and top with reserved clams, more breadcrumbs, red pepper flakes, and a drizzle of oil.</mutableString>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="2450" id="bjd-Qb-z5g"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="o0N-kH-5q5" firstAttribute="leading" secondItem="6qV-tO-qx7" secondAttribute="leading" id="ZKu-rM-fAs"/>
+                                    <constraint firstItem="o0N-kH-5q5" firstAttribute="trailing" secondItem="6qV-tO-qx7" secondAttribute="trailing" id="Zpz-u1-VmL"/>
+                                    <constraint firstItem="o0N-kH-5q5" firstAttribute="bottom" secondItem="6qV-tO-qx7" secondAttribute="bottom" id="bvs-dp-lJN"/>
+                                    <constraint firstItem="o0N-kH-5q5" firstAttribute="width" secondItem="n1H-6d-6ac" secondAttribute="width" id="d5J-79-2cx"/>
+                                    <constraint firstItem="6qV-tO-qx7" firstAttribute="top" secondItem="o0N-kH-5q5" secondAttribute="top" id="dd7-gh-qKO"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="6qV-tO-qx7"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="n1H-6d-6ac"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="BLI-AD-ihv"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="tPL-cR-G9P" firstAttribute="top" secondItem="kGx-JV-WGt" secondAttribute="top" id="K6X-Kd-sUD"/>
+                            <constraint firstItem="tPL-cR-G9P" firstAttribute="leading" secondItem="BLI-AD-ihv" secondAttribute="leading" id="dNl-QM-VLI"/>
+                            <constraint firstItem="tPL-cR-G9P" firstAttribute="trailing" secondItem="BLI-AD-ihv" secondAttribute="trailing" id="hX3-gM-CgR"/>
+                            <constraint firstAttribute="bottom" secondItem="tPL-cR-G9P" secondAttribute="bottom" id="lei-62-Ynp"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="nLI-6s-cTZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZdA-b2-9Qt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5715.9420289855079" y="-1355.3571428571429"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="AEg-7W-u4k">
+            <objects>
+                <viewController id="9pl-zv-ugk" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hTY-1E-NG2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MAH-sQ-TNo">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t7G-7Q-giL">
+                                        <rect key="frame" x="0.0" y="7" width="414" height="2000"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mackerel pic" translatesAutoresizingMaskIntoConstraints="NO" id="hgb-WQ-GwF">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="262"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sweet and Sour Mackerel with Mustard Sauce and Zucchini" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="liC-gm-bLt">
+                                                <rect key="frame" x="61" y="260" width="292" height="42"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="18"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ingredients" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Gs-eF-GF1">
+                                                <rect key="frame" x="150" y="450" width="114" height="26"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="To make our recipe for sweet and sour mackerel with mustard sauce and zucchini, start by cleaning the zucchini." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rKX-9G-S88">
+                                                <rect key="frame" x="32" y="335" width="350" height="75"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="200" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wAd-3o-QiS">
+                                                <rect key="frame" x="32" y="887" width="350" height="497"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">• To make our recipe for sweet and sour mackerel with mustard sauce and zucchini, start by cleaning the zucchini, slice them into sticks and blanch in a pan with a drizzle of oil for 2 minutes. Then add one sage leaf, one bay leaf, a sprig of rosemary and two tablespoons of pine nuts (previously toasted).
+
+• Mix, season and blend with 3-4 tablespoons of apple cider vinegar; add 15 g brown sugar, let the vinegar evaporate and continue cooking for another minute. Mix 2 tablespoons of rustic mustard with a tablespoon of oil, half a teaspoon of finely chopped shallot, 1 tablespoon of mayonnaise and 1 tablespoon of water.
+
+• For the mackerel:
+Cook the mackerel fillets in a non-stick pan with a drizzle of oil and a pinch of salt skin side down for 3-4 minutes. Then turn them over, turn off the heat and let them rest for 3-4 more minutes. Serve them with the sweet and sour zucchini and mustard sauce.
+</mutableString>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vE7-2g-G51">
+                                                <rect key="frame" x="32" y="508" width="350" height="264"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">• 1 LB. of mackerel fillets
+• 5 of zucchini
+• Sage
+• Rosemary
+• Pine nuts
+• Shallots
+• Bay leaf
+• Mayonnaise
+• Rustic mustard
+• Apple cider vinegar
+• Extra-virgin olive oil
+• Brown sugar
+• Salt</string>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Directions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="19m-Mu-dZc">
+                                                <rect key="frame" x="156" y="813" width="102" height="22"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1400" id="hdU-jb-aAy"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="t7G-7Q-giL" firstAttribute="leading" secondItem="vTY-k3-lPF" secondAttribute="leading" id="38d-Gc-4TI"/>
+                                    <constraint firstItem="t7G-7Q-giL" firstAttribute="trailing" secondItem="vTY-k3-lPF" secondAttribute="trailing" id="Fvk-re-i6e"/>
+                                    <constraint firstItem="vTY-k3-lPF" firstAttribute="top" secondItem="t7G-7Q-giL" secondAttribute="top" id="VA6-N9-Vt8"/>
+                                    <constraint firstItem="t7G-7Q-giL" firstAttribute="width" secondItem="t3P-9S-IjW" secondAttribute="width" id="pnR-68-ZX1"/>
+                                    <constraint firstItem="t7G-7Q-giL" firstAttribute="bottom" secondItem="vTY-k3-lPF" secondAttribute="bottom" id="u4E-RD-9gB"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="vTY-k3-lPF"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="t3P-9S-IjW"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="qpc-R6-WAO"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="MAH-sQ-TNo" secondAttribute="bottom" id="Y8O-D4-N6u"/>
+                            <constraint firstItem="MAH-sQ-TNo" firstAttribute="leading" secondItem="qpc-R6-WAO" secondAttribute="leading" id="b9K-Ed-OZA"/>
+                            <constraint firstItem="MAH-sQ-TNo" firstAttribute="trailing" secondItem="qpc-R6-WAO" secondAttribute="trailing" id="jok-W2-LTF"/>
+                            <constraint firstItem="MAH-sQ-TNo" firstAttribute="top" secondItem="hTY-1E-NG2" secondAttribute="top" id="mqM-wk-uwy"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="wER-mA-rc2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0If-Q0-eci" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6537.68115942029" y="-1355.3571428571429"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ZAl-hZ-SoI">
+            <objects>
+                <viewController id="0Yh-Tw-DpD" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="05E-TT-Uie">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hqB-uY-POO">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bHF-Vl-KKt">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1400"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mussels pic" translatesAutoresizingMaskIntoConstraints="NO" id="Vy7-Va-tkU">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="262"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Steamed Mussels with Fennel and Tarragon" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UJJ-HO-SAQ">
+                                                <rect key="frame" x="61" y="260" width="292" height="50"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="18"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ingredients" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DXq-89-OzC">
+                                                <rect key="frame" x="144" y="459" width="114" height="26"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Directions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CLu-C1-XHc">
+                                                <rect key="frame" x="150" y="792" width="102" height="22"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g58-ud-w2q">
+                                                <rect key="frame" x="32" y="335" width="350" height="94"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">De Laurentiis uses Peroni, an Italian beer, for this 20-minute dish, but any light-bodied lager will work and make a perfect drink pairing as well.</string>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V7y-rV-WOR">
+                                                <rect key="frame" x="32" y="519" width="350" height="244"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">• 1 tablespoon olive oil
+• 1 small fennel bulb, finely chopped
+• 2 medium shallots, finely chopped
+• 2 garlic cloves, finely chopped
+•  salt
+• 2 pounds mussels, 
+• 1 cup Italian beer
+• 3 tablespoons unsalted butter, room temperature
+• 2 tablespoons chopped tarragon
+• Toasted slices of country-style bread (for serving)</string>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="200" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rSg-LX-9XH">
+                                                <rect key="frame" x="32" y="855" width="350" height="501"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">Step 1
+
+Heat oil in a medium pot over medium-high. Add fennel and shallots and cook, stirring often, until fragrant and beginning to soften, about 2 minutes. Add garlic, season with salt, and cook, stirring constantly, until fragrant, about 1 minute.
+
+Step 2
+
+Add mussels and stir gently once or twice to coat with oil. Pour in beer and stir once more to coat. Cover pot and steam mussels, stirring halfway through, until they open, about 3 minutes. (Discard any mussels that do not open.) Add butter to pot and mix until butter is melted into pan sauce and mussels are coated.
+
+Step 3
+
+Transfer mussels and sauce to a serving bowl and top with tarragon. Serve with bread alongside for dipping.</mutableString>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1400" id="Hw4-0x-jAR"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="bHF-Vl-KKt" firstAttribute="leading" secondItem="POT-Xq-fuV" secondAttribute="leading" id="0Vj-6g-giZ"/>
+                                    <constraint firstItem="bHF-Vl-KKt" firstAttribute="trailing" secondItem="POT-Xq-fuV" secondAttribute="trailing" id="4dZ-up-AMC"/>
+                                    <constraint firstItem="bHF-Vl-KKt" firstAttribute="bottom" secondItem="POT-Xq-fuV" secondAttribute="bottom" id="Eya-M4-32Q"/>
+                                    <constraint firstItem="bHF-Vl-KKt" firstAttribute="width" secondItem="dXE-A2-171" secondAttribute="width" id="Ia0-LN-l4I"/>
+                                    <constraint firstItem="POT-Xq-fuV" firstAttribute="top" secondItem="bHF-Vl-KKt" secondAttribute="top" id="ZgE-0y-H13"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="POT-Xq-fuV"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="dXE-A2-171"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="VXf-Ch-q5j"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="hqB-uY-POO" firstAttribute="top" secondItem="05E-TT-Uie" secondAttribute="top" id="CVJ-es-M5b"/>
+                            <constraint firstItem="hqB-uY-POO" firstAttribute="trailing" secondItem="VXf-Ch-q5j" secondAttribute="trailing" id="jhA-JZ-0bc"/>
+                            <constraint firstItem="hqB-uY-POO" firstAttribute="leading" secondItem="VXf-Ch-q5j" secondAttribute="leading" id="qgp-yU-WAG"/>
+                            <constraint firstAttribute="bottom" secondItem="hqB-uY-POO" secondAttribute="bottom" id="suc-tD-X5Z"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Cqj-VN-2ez"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WiQ-38-fMe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7485.507246376812" y="-1355.3571428571429"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
@@ -2254,7 +2739,6 @@ It is usually served with polenta (mămăliga) and garlic, oil, and vinegar sauc
         <segue reference="o8e-79-cs4"/>
         <segue reference="db8-Ua-L81"/>
         <segue reference="AlF-xt-2xF"/>
-        <segue reference="r89-R4-GDe"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="118579948_3571099736253586_7491560287992599264_n" width="170" height="170"/>
@@ -2274,6 +2758,7 @@ It is usually served with polenta (mămăliga) and garlic, oil, and vinegar sauc
         <image name="beets soup" width="128" height="128"/>
         <image name="chickenlemon-1" width="326" height="208"/>
         <image name="ciopinno" width="128" height="128"/>
+        <image name="ciopinno pic" width="358" height="228"/>
         <image name="colltunasi pic" width="358" height="228"/>
         <image name="egplant" width="328" height="208"/>
         <image name="egplant feta" width="128" height="128"/>
@@ -2285,7 +2770,10 @@ It is usually served with polenta (mămăliga) and garlic, oil, and vinegar sauc
         <image name="lentil" width="328" height="208"/>
         <image name="lentil soup" width="128" height="128"/>
         <image name="liguini" width="128" height="128"/>
+        <image name="linguini pic" width="358" height="228"/>
+        <image name="mackerel pic" width="358" height="228"/>
         <image name="mamaliga" width="128" height="128"/>
+        <image name="mussels pic" width="358" height="228"/>
         <image name="olivie" width="128" height="128"/>
         <image name="olivier ssalad" width="328" height="208"/>
         <image name="pelmeni" width="328" height="208"/>
@@ -2293,6 +2781,7 @@ It is usually served with polenta (mămăliga) and garlic, oil, and vinegar sauc
         <image name="placinta pic" width="358" height="228"/>
         <image name="polenta pic" width="358" height="228"/>
         <image name="sarmale pic" width="358" height="228"/>
+        <image name="scampi pic" width="358" height="228"/>
         <image name="shrimp scmapi" width="128" height="128"/>
         <image name="steamed mussels" width="128" height="128"/>
         <image name="stew lamb" width="328" height="208"/>
