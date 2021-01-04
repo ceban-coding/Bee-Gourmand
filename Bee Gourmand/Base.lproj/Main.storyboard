@@ -1839,7 +1839,7 @@ Vasili Mandalac(Full Stack Web Developer)
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zVq-3R-sru">
                                 <rect key="frame" x="22" y="729" width="372" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="olivie"/>
+                                <state key="normal" image="olivie"/>
                                 <connections>
                                     <segue destination="17B-fc-8Kw" kind="show" id="e2n-dx-k8m"/>
                                 </connections>
