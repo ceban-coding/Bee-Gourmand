@@ -27,8 +27,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ljc-S4-aJ3">
-                                <rect key="frame" x="100" y="757" width="200" height="37"/>
-                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="21"/>
+                                <rect key="frame" x="100" y="751" width="200" height="43"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="26"/>
                                 <state key="normal" title="Get started">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -298,7 +298,7 @@
                                 <rect key="frame" x="15" y="113" width="384" height="724"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" placeholderIntrinsicWidth="400" placeholderIntrinsicHeight="135" contentHorizontalAlignment="leading" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="6gn-HY-5cc">
-                                        <rect key="frame" x="0.0" y="0.0" width="384" height="135"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="369" height="135"/>
                                         <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="18"/>
                                         <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <size key="titleShadowOffset" width="2" height="0.0"/>
@@ -310,7 +310,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" placeholderIntrinsicWidth="400" placeholderIntrinsicHeight="135.5" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="2Qm-gN-4jn">
-                                        <rect key="frame" x="0.0" y="147" width="384" height="135.5"/>
+                                        <rect key="frame" x="0.0" y="147" width="369" height="135.5"/>
                                         <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <state key="normal" title="Cheese Dumplings" image="Cheese Dumplings">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -320,7 +320,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" placeholderIntrinsicWidth="400" placeholderIntrinsicHeight="135" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ux9-22-v6P">
-                                        <rect key="frame" x="0.0" y="294.5" width="384" height="135"/>
+                                        <rect key="frame" x="0.0" y="294.5" width="369" height="135"/>
                                         <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <state key="normal" title="Cheese Pie" image="Cheese Pie">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -330,7 +330,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="748" placeholderIntrinsicWidth="400" placeholderIntrinsicHeight="135.5" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mWf-br-YcE">
-                                        <rect key="frame" x="0.0" y="441.5" width="384" height="135.5"/>
+                                        <rect key="frame" x="0.0" y="441.5" width="369" height="135.5"/>
                                         <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <state key="normal" title="Stuffed Cabbage" image="stuffed cabages">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -340,7 +340,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" placeholderIntrinsicWidth="400" placeholderIntrinsicHeight="135" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="92V-7S-7Do">
-                                        <rect key="frame" x="0.0" y="589" width="384" height="135"/>
+                                        <rect key="frame" x="0.0" y="589" width="369" height="135"/>
                                         <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <state key="normal" title="Fried Fish" image="Fried Fish">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -350,15 +350,22 @@
                                         </connections>
                                     </button>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="92V-7S-7Do" secondAttribute="trailing" constant="15" id="Dgp-M9-sLT"/>
+                                    <constraint firstAttribute="trailing" secondItem="2Qm-gN-4jn" secondAttribute="trailing" constant="15" id="JDN-TP-rQB"/>
+                                    <constraint firstAttribute="trailing" secondItem="mWf-br-YcE" secondAttribute="trailing" constant="15" id="cOK-S4-klq"/>
+                                    <constraint firstAttribute="trailing" secondItem="6gn-HY-5cc" secondAttribute="trailing" constant="15" id="dLW-iU-hA5"/>
+                                    <constraint firstAttribute="trailing" secondItem="Ux9-22-v6P" secondAttribute="trailing" constant="15" id="yMR-a4-DRH"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="rMw-Ax-51J"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="rMw-Ax-51J" firstAttribute="bottom" secondItem="cy1-56-B8e" secondAttribute="bottom" constant="25" id="6QI-vY-29y"/>
-                            <constraint firstItem="rMw-Ax-51J" firstAttribute="trailing" secondItem="cy1-56-B8e" secondAttribute="trailing" constant="15" id="NX3-Dc-1Sd"/>
-                            <constraint firstItem="cy1-56-B8e" firstAttribute="leading" secondItem="rMw-Ax-51J" secondAttribute="leading" constant="15" id="ODF-gb-GRn"/>
-                            <constraint firstItem="cy1-56-B8e" firstAttribute="top" secondItem="rMw-Ax-51J" secondAttribute="top" constant="25" id="gIg-ze-YF5"/>
+                            <constraint firstItem="cy1-56-B8e" firstAttribute="top" secondItem="rMw-Ax-51J" secondAttribute="top" constant="25" id="0k2-OS-XCv"/>
+                            <constraint firstItem="rMw-Ax-51J" firstAttribute="bottom" secondItem="cy1-56-B8e" secondAttribute="bottom" constant="25" id="DiE-3H-Uha"/>
+                            <constraint firstItem="cy1-56-B8e" firstAttribute="leading" secondItem="rMw-Ax-51J" secondAttribute="leading" constant="15" id="mBV-rj-jFi"/>
+                            <constraint firstAttribute="trailing" secondItem="cy1-56-B8e" secondAttribute="trailing" constant="15" id="ztq-HO-wlz"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Moldavian Recipes List" id="aeG-nN-7zX"/>
