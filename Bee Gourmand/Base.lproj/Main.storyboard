@@ -8,17 +8,27 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Welcome Screen-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Bee_Gourmand" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Welcome Screen" id="BYZ-38-t0r" customClass="ViewController" customModule="Bee_Gourmand" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ljc-S4-aJ3">
-                                <rect key="frame" x="139" y="729" width="136" height="44"/>
-                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="27"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="RI9-k4-f4Z">
+                                <rect key="frame" x="0.0" y="167" width="414" height="389"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c0g-yZ-pnP">
+                                <rect key="frame" x="346" y="819" width="25" height="24"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="1"/>
+                                <connections>
+                                    <segue destination="h1V-8c-rfZ" kind="show" id="w5D-U7-IUb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ljc-S4-aJ3">
+                                <rect key="frame" x="100" y="757" width="200" height="37"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="21"/>
                                 <state key="normal" title="Get started">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -26,32 +36,19 @@
                                     <segue destination="ar8-fh-ZY1" kind="show" id="V09-rV-qu2"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c0g-yZ-pnP">
-                                <rect key="frame" x="353" y="825" width="25" height="24"/>
-                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="1"/>
-                                <connections>
-                                    <segue destination="h1V-8c-rfZ" kind="show" id="w5D-U7-IUb"/>
-                                </connections>
-                            </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="RI9-k4-f4Z">
-                                <rect key="frame" x="20" y="148" width="374" height="371"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.99215686274509807" green="1" blue="0.90588235294117647" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="RI9-k4-f4Z" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="6od-EH-l1f"/>
-                            <constraint firstItem="c0g-yZ-pnP" firstAttribute="top" secondItem="RI9-k4-f4Z" secondAttribute="bottom" constant="306" id="Ae9-ns-jes"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ljc-S4-aJ3" secondAttribute="trailing" constant="139" id="BYJ-gK-4O3"/>
-                            <constraint firstItem="RI9-k4-f4Z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Bg1-fN-q0o"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="RI9-k4-f4Z" secondAttribute="bottom" constant="343" id="PFU-vp-x7Z"/>
-                            <constraint firstItem="ljc-S4-aJ3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="139" id="US4-wM-J4x"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="c0g-yZ-pnP" secondAttribute="bottom" constant="13" id="dkg-Lk-wAk"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RI9-k4-f4Z" secondAttribute="trailing" constant="20" id="hef-PD-gDP"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="c0g-yZ-pnP" secondAttribute="trailing" constant="36" id="iuK-cY-gFp"/>
-                            <constraint firstItem="ljc-S4-aJ3" firstAttribute="top" secondItem="RI9-k4-f4Z" secondAttribute="bottom" constant="210" id="jBh-qz-QmT"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ljc-S4-aJ3" secondAttribute="bottom" constant="89" id="qZQ-Rp-00D"/>
-                            <constraint firstItem="c0g-yZ-pnP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="353" id="wBC-C8-htR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="c0g-yZ-pnP" secondAttribute="bottom" constant="19" id="0zI-c4-n9B"/>
+                            <constraint firstItem="RI9-k4-f4Z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="2Gd-4I-nLA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RI9-k4-f4Z" secondAttribute="trailing" id="INh-WE-MBA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ljc-S4-aJ3" secondAttribute="bottom" constant="68" id="LXi-Gh-GsD"/>
+                            <constraint firstItem="RI9-k4-f4Z" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="79" id="Oqx-2V-zNH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ljc-S4-aJ3" secondAttribute="trailing" constant="114" id="bgb-sw-oLy"/>
+                            <constraint firstItem="ljc-S4-aJ3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="q19-TA-Th1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="RI9-k4-f4Z" secondAttribute="bottom" constant="306" id="tMi-cL-csV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="c0g-yZ-pnP" secondAttribute="trailing" constant="43" id="yl7-5e-57k"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="m5f-Cz-uD3"/>
@@ -60,56 +57,70 @@
             </objects>
             <point key="canvasLocation" x="879.71014492753625" y="108.48214285714285"/>
         </scene>
-        <!--View Controller-->
+        <!--Recipes By Countries-->
         <scene sceneID="BzL-WE-bid">
             <objects>
-                <viewController id="ar8-fh-ZY1" sceneMemberID="viewController">
+                <viewController title="Recipes By Countries" id="ar8-fh-ZY1" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dCd-To-lr6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4fy-OD-Wuj">
-                                <rect key="frame" x="-1" y="334" width="418" height="191"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Russian"/>
-                                <connections>
-                                    <segue destination="d2z-6z-Qud" kind="show" id="oGB-ET-PQN"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TWJ-84-pbw">
-                                <rect key="frame" x="-1" y="524" width="418" height="191"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Italy R"/>
-                                <connections>
-                                    <segue destination="r5T-Uv-MbG" kind="show" id="fOf-Fy-jnQ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rag-yH-RxI">
-                                <rect key="frame" x="-1" y="712" width="415" height="191"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Greek R"/>
-                                <connections>
-                                    <segue destination="vs5-rG-unR" kind="show" id="24a-Jb-zIN"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9JY-LO-3xK">
-                                <rect key="frame" x="-2" y="146" width="416" height="191"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Moldavian"/>
-                                <connections>
-                                    <segue destination="pbA-E4-jRz" kind="show" id="VS8-00-5Vm"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Recipes By Countries" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vWO-eS-sc3">
-                                <rect key="frame" x="102" y="101" width="212" height="26"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <stackView opaque="NO" contentMode="scaleAspectFill" axis="vertical" distribution="fillProportionally" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ES3-u4-8s5">
+                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recipes By Countries" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vWO-eS-sc3">
+                                        <rect key="frame" x="104" y="0.0" width="207" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="sfZ-ch-waa"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleAspectFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="AXL-1D-UN2">
+                                        <rect key="frame" x="0.0" y="30" width="414" height="778"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9JY-LO-3xK">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="194.5"/>
+                                                <state key="normal" title="Button" image="Moldavian"/>
+                                                <connections>
+                                                    <segue destination="pbA-E4-jRz" kind="show" id="VS8-00-5Vm"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4fy-OD-Wuj">
+                                                <rect key="frame" x="0.0" y="194.5" width="414" height="194.5"/>
+                                                <state key="normal" title="Button" image="Russian"/>
+                                                <connections>
+                                                    <segue destination="d2z-6z-Qud" kind="show" id="oGB-ET-PQN"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TWJ-84-pbw">
+                                                <rect key="frame" x="0.0" y="389" width="414" height="194.5"/>
+                                                <state key="normal" title="Button" image="Italy R"/>
+                                                <connections>
+                                                    <segue destination="r5T-Uv-MbG" kind="show" id="fOf-Fy-jnQ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rag-yH-RxI">
+                                                <rect key="frame" x="0.0" y="583.5" width="414" height="194.5"/>
+                                                <state key="normal" title="Button" image="Greek R"/>
+                                                <connections>
+                                                    <segue destination="vs5-rG-unR" kind="show" id="24a-Jb-zIN"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="qkM-Ym-3YT"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ES3-u4-8s5" firstAttribute="leading" secondItem="dCd-To-lr6" secondAttribute="leading" id="LdF-GI-nT9"/>
+                            <constraint firstItem="ES3-u4-8s5" firstAttribute="top" secondItem="qkM-Ym-3YT" secondAttribute="top" id="Rsc-xI-qJ1"/>
+                            <constraint firstItem="qkM-Ym-3YT" firstAttribute="trailing" secondItem="ES3-u4-8s5" secondAttribute="trailing" id="SaX-qh-pz3"/>
+                            <constraint firstAttribute="bottom" secondItem="ES3-u4-8s5" secondAttribute="bottom" id="opb-xW-WqP"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Bc3-9R-J7C"/>
                 </viewController>
@@ -117,10 +128,10 @@
             </objects>
             <point key="canvasLocation" x="1757.9710144927537" y="107.8125"/>
         </scene>
-        <!--View Controller-->
+        <!--Mamaliga-->
         <scene sceneID="fhf-Rg-4HO">
             <objects>
-                <viewController id="wN5-EM-S58" sceneMemberID="viewController">
+                <viewController title="Mamaliga" id="wN5-EM-S58" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iak-4z-mBH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -275,124 +286,79 @@
             </objects>
             <point key="canvasLocation" x="-1059.4202898550725" y="-1355.3571428571429"/>
         </scene>
-        <!--Moldavian Recipes List-->
+        <!--Moldavian Recipes View-->
         <scene sceneID="pkU-IC-emo">
             <objects>
-                <viewController id="pbA-E4-jRz" sceneMemberID="viewController">
+                <viewController title="Moldavian Recipes View" id="pbA-E4-jRz" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CVo-SH-dHD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6gn-HY-5cc">
-                                <rect key="frame" x="15" y="148" width="390" height="130"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="130" id="boH-zn-Qap"/>
-                                </constraints>
-                                <state key="normal" title="Button" image="mamaliga"/>
-                                <connections>
-                                    <segue destination="wN5-EM-S58" kind="show" id="gMA-u4-MfT"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Qm-gN-4jn">
-                                <rect key="frame" x="15" y="286" width="390" height="128"/>
-                                <state key="normal" title="Button" image="Cheese Dumplings"/>
-                                <connections>
-                                    <segue destination="eKj-jh-zG5" kind="show" id="2w5-XV-z9H"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cheese Dumplings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="prh-wq-7ag">
-                                <rect key="frame" x="166" y="340" width="140" height="20"/>
-                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mWf-br-YcE">
-                                <rect key="frame" x="15" y="569" width="390" height="129"/>
-                                <state key="normal" title="Button" image="stuffed cabages"/>
-                                <connections>
-                                    <segue destination="yX3-3Y-Bfr" kind="show" id="Y69-G6-lHM"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="92V-7S-7Do">
-                                <rect key="frame" x="15" y="710" width="390" height="130"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="130" id="bo7-Y7-jKy"/>
-                                </constraints>
-                                <state key="normal" title="Button" image="Fried Fish"/>
-                                <connections>
-                                    <segue destination="zuF-Bx-dBN" kind="show" id="rHI-dv-qXs"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ux9-22-v6P">
-                                <rect key="frame" x="15" y="427" width="390" height="128"/>
-                                <state key="normal" title="Button" image="Cheese Pie"/>
-                                <connections>
-                                    <segue destination="5br-re-Jn1" kind="show" id="rFG-xW-Qvd"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Polenta with Cheese" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mCT-RQ-A5T">
-                                <rect key="frame" x="166" y="202" width="155" height="20"/>
-                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cheese Pie" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GID-Uc-Yia">
-                                <rect key="frame" x="166" y="481" width="82" height="20"/>
-                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stuffed Cabbage" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lCx-y4-0CS">
-                                <rect key="frame" x="166" y="623" width="130" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fried Fish" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7bX-GY-zWn">
-                                <rect key="frame" x="166" y="765" width="74" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <stackView opaque="NO" contentMode="scaleAspectFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="cy1-56-B8e">
+                                <rect key="frame" x="15" y="113" width="384" height="724"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" placeholderIntrinsicWidth="400" placeholderIntrinsicHeight="135" contentHorizontalAlignment="leading" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="6gn-HY-5cc">
+                                        <rect key="frame" x="0.0" y="0.0" width="384" height="135"/>
+                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="18"/>
+                                        <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <size key="titleShadowOffset" width="2" height="0.0"/>
+                                        <state key="normal" title="Polenta with Cheese" image="mamaliga">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="wN5-EM-S58" kind="show" id="gMA-u4-MfT"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" placeholderIntrinsicWidth="400" placeholderIntrinsicHeight="135.5" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="2Qm-gN-4jn">
+                                        <rect key="frame" x="0.0" y="147" width="384" height="135.5"/>
+                                        <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Cheese Dumplings" image="Cheese Dumplings">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="eKj-jh-zG5" kind="show" id="2w5-XV-z9H"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" placeholderIntrinsicWidth="400" placeholderIntrinsicHeight="135" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ux9-22-v6P">
+                                        <rect key="frame" x="0.0" y="294.5" width="384" height="135"/>
+                                        <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Cheese Pie" image="Cheese Pie">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="5br-re-Jn1" kind="show" id="rFG-xW-Qvd"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="748" placeholderIntrinsicWidth="400" placeholderIntrinsicHeight="135.5" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mWf-br-YcE">
+                                        <rect key="frame" x="0.0" y="441.5" width="384" height="135.5"/>
+                                        <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Stuffed Cabbage" image="stuffed cabages">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="yX3-3Y-Bfr" kind="show" id="Y69-G6-lHM"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" placeholderIntrinsicWidth="400" placeholderIntrinsicHeight="135" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="92V-7S-7Do">
+                                        <rect key="frame" x="0.0" y="589" width="384" height="135"/>
+                                        <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Fried Fish" image="Fried Fish">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="zuF-Bx-dBN" kind="show" id="rHI-dv-qXs"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="rMw-Ax-51J"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="6gn-HY-5cc" firstAttribute="leading" secondItem="mWf-br-YcE" secondAttribute="leading" id="2LA-2g-Xxf"/>
-                            <constraint firstItem="6gn-HY-5cc" firstAttribute="leading" secondItem="2Qm-gN-4jn" secondAttribute="leading" id="3Eu-w9-xW5"/>
-                            <constraint firstItem="lCx-y4-0CS" firstAttribute="centerY" secondItem="mWf-br-YcE" secondAttribute="centerY" id="3Kg-md-W94"/>
-                            <constraint firstItem="GID-Uc-Yia" firstAttribute="centerY" secondItem="Ux9-22-v6P" secondAttribute="centerY" id="4ix-VF-D3z"/>
-                            <constraint firstItem="6gn-HY-5cc" firstAttribute="trailing" secondItem="Ux9-22-v6P" secondAttribute="trailing" id="6Le-RB-Soh"/>
-                            <constraint firstItem="GID-Uc-Yia" firstAttribute="top" secondItem="2Qm-gN-4jn" secondAttribute="bottom" constant="67" id="7wO-wY-0gD"/>
-                            <constraint firstItem="7bX-GY-zWn" firstAttribute="leading" secondItem="GID-Uc-Yia" secondAttribute="leading" id="Aqg-ZF-1xH"/>
-                            <constraint firstItem="rMw-Ax-51J" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="GID-Uc-Yia" secondAttribute="trailing" symbolic="YES" id="CE6-xo-u4T"/>
-                            <constraint firstItem="GID-Uc-Yia" firstAttribute="baseline" secondItem="Ux9-22-v6P" secondAttribute="firstBaseline" id="DNz-Sq-tCE"/>
-                            <constraint firstItem="7bX-GY-zWn" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="prh-wq-7ag" secondAttribute="leading" id="DVX-nz-pQf"/>
-                            <constraint firstItem="92V-7S-7Do" firstAttribute="centerY" secondItem="7bX-GY-zWn" secondAttribute="centerY" id="KcA-Gv-rmM"/>
-                            <constraint firstItem="rMw-Ax-51J" firstAttribute="bottom" secondItem="92V-7S-7Do" secondAttribute="bottom" constant="22" id="L0D-ah-n2j"/>
-                            <constraint firstItem="92V-7S-7Do" firstAttribute="top" secondItem="mWf-br-YcE" secondAttribute="bottom" constant="12" id="L5W-oq-Tfd"/>
-                            <constraint firstItem="rMw-Ax-51J" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="7bX-GY-zWn" secondAttribute="trailing" symbolic="YES" id="Mpj-v0-tiK"/>
-                            <constraint firstItem="6gn-HY-5cc" firstAttribute="leading" secondItem="rMw-Ax-51J" secondAttribute="leading" constant="15" id="Oal-a3-X4h"/>
-                            <constraint firstItem="rMw-Ax-51J" firstAttribute="trailing" secondItem="prh-wq-7ag" secondAttribute="trailing" constant="108" id="Py6-hg-WMi"/>
-                            <constraint firstItem="92V-7S-7Do" firstAttribute="firstBaseline" secondItem="7bX-GY-zWn" secondAttribute="firstBaseline" id="TPf-Df-Efl"/>
-                            <constraint firstItem="6gn-HY-5cc" firstAttribute="trailing" secondItem="2Qm-gN-4jn" secondAttribute="trailing" id="VB5-5T-kCR"/>
-                            <constraint firstItem="rMw-Ax-51J" firstAttribute="trailing" secondItem="mCT-RQ-A5T" secondAttribute="trailing" constant="93" id="b5s-Pc-LQB"/>
-                            <constraint firstItem="7bX-GY-zWn" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="lCx-y4-0CS" secondAttribute="leading" id="dIW-cc-N3O"/>
-                            <constraint firstItem="rMw-Ax-51J" firstAttribute="trailing" secondItem="6gn-HY-5cc" secondAttribute="trailing" constant="9" id="db2-hc-KhA"/>
-                            <constraint firstItem="2Qm-gN-4jn" firstAttribute="top" secondItem="mCT-RQ-A5T" secondAttribute="bottom" constant="64" id="hVt-CS-2He"/>
-                            <constraint firstItem="prh-wq-7ag" firstAttribute="top" secondItem="6gn-HY-5cc" secondAttribute="bottom" constant="62" id="iaw-C2-SLD"/>
-                            <constraint firstItem="6gn-HY-5cc" firstAttribute="trailing" secondItem="mWf-br-YcE" secondAttribute="trailing" id="ilq-3w-bPE"/>
-                            <constraint firstItem="6gn-HY-5cc" firstAttribute="leading" secondItem="92V-7S-7Do" secondAttribute="leading" id="kvm-vV-7eX"/>
-                            <constraint firstItem="92V-7S-7Do" firstAttribute="top" secondItem="lCx-y4-0CS" secondAttribute="bottom" constant="66" id="lxL-Le-W2m"/>
-                            <constraint firstItem="7bX-GY-zWn" firstAttribute="top" secondItem="mWf-br-YcE" secondAttribute="bottom" constant="67" id="pLt-MN-0T5"/>
-                            <constraint firstItem="7bX-GY-zWn" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="mCT-RQ-A5T" secondAttribute="leading" id="q8Q-Pj-agK"/>
-                            <constraint firstItem="2Qm-gN-4jn" firstAttribute="top" secondItem="6gn-HY-5cc" secondAttribute="bottom" constant="8" symbolic="YES" id="rOo-75-nkU"/>
-                            <constraint firstItem="92V-7S-7Do" firstAttribute="baseline" secondItem="7bX-GY-zWn" secondAttribute="baseline" id="sMA-4S-1UH"/>
-                            <constraint firstItem="6gn-HY-5cc" firstAttribute="leading" secondItem="Ux9-22-v6P" secondAttribute="leading" id="sSp-Qg-Jff"/>
-                            <constraint firstItem="7bX-GY-zWn" firstAttribute="leading" secondItem="rMw-Ax-51J" secondAttribute="leading" constant="166" id="wPU-fY-U4H"/>
-                            <constraint firstItem="6gn-HY-5cc" firstAttribute="trailing" secondItem="92V-7S-7Do" secondAttribute="trailing" id="wXt-EM-PVc"/>
-                            <constraint firstAttribute="bottom" secondItem="GID-Uc-Yia" secondAttribute="bottom" constant="395" id="wwp-mR-uo9"/>
-                            <constraint firstItem="rMw-Ax-51J" firstAttribute="trailing" secondItem="lCx-y4-0CS" secondAttribute="trailing" constant="118" id="zEf-aa-GpC"/>
+                            <constraint firstItem="rMw-Ax-51J" firstAttribute="bottom" secondItem="cy1-56-B8e" secondAttribute="bottom" constant="25" id="6QI-vY-29y"/>
+                            <constraint firstItem="rMw-Ax-51J" firstAttribute="trailing" secondItem="cy1-56-B8e" secondAttribute="trailing" constant="15" id="NX3-Dc-1Sd"/>
+                            <constraint firstItem="cy1-56-B8e" firstAttribute="leading" secondItem="rMw-Ax-51J" secondAttribute="leading" constant="15" id="ODF-gb-GRn"/>
+                            <constraint firstItem="cy1-56-B8e" firstAttribute="top" secondItem="rMw-Ax-51J" secondAttribute="top" constant="25" id="gIg-ze-YF5"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Moldavian Recipes List" id="aeG-nN-7zX"/>
@@ -401,130 +367,84 @@
             </objects>
             <point key="canvasLocation" x="796" y="-604"/>
         </scene>
-        <!--Italian Recipes List-->
+        <!--Italian Recipes View-->
         <scene sceneID="dz0-Ko-o7z">
             <objects>
-                <viewController id="r5T-Uv-MbG" sceneMemberID="viewController">
+                <viewController title="Italian Recipes View" id="r5T-Uv-MbG" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4VW-qe-BAI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uQv-r2-Y08">
-                                <rect key="frame" x="15" y="147" width="390" height="130"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="hH1-Ux-hXt">
+                                <rect key="frame" x="15" y="113" width="384" height="724"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="uQv-r2-Y08">
+                                        <rect key="frame" x="0.0" y="0.0" width="369" height="135"/>
+                                        <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Shrimp Scampi" image="shrimp scmapi">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="R2s-Vu-RGg" kind="show" id="ore-2Q-04b"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="XxS-M6-buu">
+                                        <rect key="frame" x="0.0" y="147" width="369" height="135.5"/>
+                                        <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Ciopinno" image="ciopinno">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="yAX-4K-7oA" kind="show" id="VCn-xf-KUa"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="87W-qA-eiG">
+                                        <rect key="frame" x="0.0" y="294.5" width="369" height="135"/>
+                                        <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Liguini and Clams" image="liguini">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="kjp-rR-TNz" kind="show" id="ATS-do-f5x"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Qpl-WZ-a9R">
+                                        <rect key="frame" x="0.0" y="441.5" width="369" height="135.5"/>
+                                        <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Mackerel with Mustard" image="Mackerel">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="9pl-zv-ugk" kind="show" id="ZRh-Nl-5Fg"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Bu9-Tc-i5p">
+                                        <rect key="frame" x="0.0" y="589" width="369" height="135"/>
+                                        <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Steamed Mussels" image="steamed mussels">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="0Yh-Tw-DpD" kind="show" id="ai9-SE-d55"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="130" id="FBp-Lh-hYQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="uQv-r2-Y08" secondAttribute="trailing" constant="15" id="Je6-YF-xr4"/>
+                                    <constraint firstAttribute="trailing" secondItem="XxS-M6-buu" secondAttribute="trailing" constant="15" id="Tfv-8q-kKO"/>
+                                    <constraint firstAttribute="trailing" secondItem="Qpl-WZ-a9R" secondAttribute="trailing" constant="15" id="csu-hi-WEt"/>
+                                    <constraint firstAttribute="trailing" secondItem="Bu9-Tc-i5p" secondAttribute="trailing" constant="15" id="kXA-2h-1Mk"/>
+                                    <constraint firstAttribute="trailing" secondItem="87W-qA-eiG" secondAttribute="trailing" constant="15" id="wgu-BE-rEO"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="shrimp scmapi"/>
-                                <connections>
-                                    <segue destination="R2s-Vu-RGg" kind="show" id="ore-2Q-04b"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XxS-M6-buu">
-                                <rect key="frame" x="15" y="289" width="390" height="128"/>
-                                <state key="normal" title="Button" image="ciopinno"/>
-                                <connections>
-                                    <segue destination="yAX-4K-7oA" kind="show" id="VCn-xf-KUa"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="87W-qA-eiG">
-                                <rect key="frame" x="15" y="429" width="390" height="130"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="130" id="XPO-Q4-HDk"/>
-                                </constraints>
-                                <state key="normal" title="Button" image="liguini"/>
-                                <connections>
-                                    <segue destination="kjp-rR-TNz" kind="show" id="ATS-do-f5x"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qpl-WZ-a9R">
-                                <rect key="frame" x="15" y="571" width="390" height="128.5"/>
-                                <state key="normal" title="Button" image="Mackerel"/>
-                                <connections>
-                                    <segue destination="9pl-zv-ugk" kind="show" id="ZRh-Nl-5Fg"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bu9-Tc-i5p">
-                                <rect key="frame" x="15" y="713.5" width="390" height="130"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="130" id="iOm-fe-NAh"/>
-                                </constraints>
-                                <state key="normal" title="Button" image="steamed mussels"/>
-                                <connections>
-                                    <segue destination="0Yh-Tw-DpD" kind="show" id="ai9-SE-d55"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shrimp Scampi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dpM-qY-ain">
-                                <rect key="frame" x="173" y="202" width="116" height="20"/>
-                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ciopinno" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8QZ-eQ-Eo3">
-                                <rect key="frame" x="176" y="343" width="68" height="20"/>
-                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Liguini and Clams" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dqF-QE-Gba">
-                                <rect key="frame" x="176" y="484" width="135" height="20"/>
-                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mackerel with Mustard" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qwJ-VF-p6W">
-                                <rect key="frame" x="176" y="626" width="177" height="20"/>
-                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Steamed Mussels" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YZ7-D9-qXe">
-                                <rect key="frame" x="176" y="768.5" width="135" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="khq-4K-Qqx"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="8QZ-eQ-Eo3" firstAttribute="leading" secondItem="YZ7-D9-qXe" secondAttribute="leading" id="7FX-SZ-gEV"/>
-                            <constraint firstItem="khq-4K-Qqx" firstAttribute="trailing" secondItem="dpM-qY-ain" secondAttribute="trailing" constant="125" id="7TI-em-Az9"/>
-                            <constraint firstItem="uQv-r2-Y08" firstAttribute="centerX" secondItem="8QZ-eQ-Eo3" secondAttribute="centerX" id="7bM-YN-d5I"/>
-                            <constraint firstItem="XxS-M6-buu" firstAttribute="top" secondItem="uQv-r2-Y08" secondAttribute="bottom" constant="12" id="AWU-oh-EOE"/>
-                            <constraint firstItem="Qpl-WZ-a9R" firstAttribute="top" secondItem="87W-qA-eiG" secondAttribute="bottom" constant="12" id="BGL-hh-udF"/>
-                            <constraint firstItem="Bu9-Tc-i5p" firstAttribute="centerY" secondItem="YZ7-D9-qXe" secondAttribute="centerY" id="C3n-qf-gxl"/>
-                            <constraint firstItem="khq-4K-Qqx" firstAttribute="trailing" secondItem="uQv-r2-Y08" secondAttribute="trailing" constant="9" id="DGt-61-hwC"/>
-                            <constraint firstItem="uQv-r2-Y08" firstAttribute="leading" secondItem="87W-qA-eiG" secondAttribute="leading" id="I85-i0-IUi"/>
-                            <constraint firstItem="uQv-r2-Y08" firstAttribute="trailing" secondItem="Qpl-WZ-a9R" secondAttribute="trailing" id="Iax-py-cv0"/>
-                            <constraint firstItem="87W-qA-eiG" firstAttribute="top" secondItem="4VW-qe-BAI" secondAttribute="top" constant="429" id="M7b-uc-21g"/>
-                            <constraint firstItem="8QZ-eQ-Eo3" firstAttribute="centerY" secondItem="XxS-M6-buu" secondAttribute="centerY" id="MYF-HC-rNy"/>
-                            <constraint firstItem="8QZ-eQ-Eo3" firstAttribute="leading" secondItem="dqF-QE-Gba" secondAttribute="leading" id="MdE-lK-x1l"/>
-                            <constraint firstItem="YZ7-D9-qXe" firstAttribute="top" secondItem="Qpl-WZ-a9R" secondAttribute="bottom" constant="69" id="N02-4p-d8t"/>
-                            <constraint firstItem="Bu9-Tc-i5p" firstAttribute="firstBaseline" secondItem="YZ7-D9-qXe" secondAttribute="firstBaseline" id="OzX-4W-aH4"/>
-                            <constraint firstItem="Bu9-Tc-i5p" firstAttribute="baseline" secondItem="YZ7-D9-qXe" secondAttribute="baseline" id="QBo-L2-x5f"/>
-                            <constraint firstItem="uQv-r2-Y08" firstAttribute="leading" secondItem="khq-4K-Qqx" secondAttribute="leading" constant="15" id="Stl-8N-RQN"/>
-                            <constraint firstItem="uQv-r2-Y08" firstAttribute="trailing" secondItem="Bu9-Tc-i5p" secondAttribute="trailing" id="UlK-mB-OyF"/>
-                            <constraint firstItem="dpM-qY-ain" firstAttribute="leading" secondItem="khq-4K-Qqx" secondAttribute="leading" constant="173" id="V8W-gw-pHM"/>
-                            <constraint firstItem="87W-qA-eiG" firstAttribute="centerY" secondItem="dqF-QE-Gba" secondAttribute="centerY" id="X0H-5G-TwZ"/>
-                            <constraint firstItem="uQv-r2-Y08" firstAttribute="firstBaseline" secondItem="dpM-qY-ain" secondAttribute="baseline" id="XXE-G0-fLc"/>
-                            <constraint firstItem="8QZ-eQ-Eo3" firstAttribute="leading" secondItem="qwJ-VF-p6W" secondAttribute="leading" id="YV4-24-lbG"/>
-                            <constraint firstItem="87W-qA-eiG" firstAttribute="top" secondItem="XxS-M6-buu" secondAttribute="bottom" constant="12" id="YxN-wi-bDw"/>
-                            <constraint firstItem="uQv-r2-Y08" firstAttribute="leading" secondItem="XxS-M6-buu" secondAttribute="leading" id="ZPj-DE-Ikb"/>
-                            <constraint firstItem="uQv-r2-Y08" firstAttribute="leading" secondItem="Bu9-Tc-i5p" secondAttribute="leading" id="ZcU-J5-VaY"/>
-                            <constraint firstItem="uQv-r2-Y08" firstAttribute="leading" secondItem="Qpl-WZ-a9R" secondAttribute="leading" id="aRL-pT-WEz"/>
-                            <constraint firstItem="XxS-M6-buu" firstAttribute="top" secondItem="dpM-qY-ain" secondAttribute="bottom" constant="67" id="axc-8V-7KE"/>
-                            <constraint firstItem="uQv-r2-Y08" firstAttribute="trailing" secondItem="XxS-M6-buu" secondAttribute="trailing" id="cJU-8r-PgB"/>
-                            <constraint firstItem="dpM-qY-ain" firstAttribute="leading" secondItem="khq-4K-Qqx" secondAttribute="leading" constant="173" id="cm7-QU-iBV"/>
-                            <constraint firstItem="8QZ-eQ-Eo3" firstAttribute="baseline" secondItem="XxS-M6-buu" secondAttribute="firstBaseline" id="g3m-lJ-bI4"/>
-                            <constraint firstItem="YZ7-D9-qXe" firstAttribute="centerX" secondItem="dqF-QE-Gba" secondAttribute="centerX" id="gZe-I7-3Yt"/>
-                            <constraint firstItem="Bu9-Tc-i5p" firstAttribute="top" secondItem="Qpl-WZ-a9R" secondAttribute="bottom" constant="14" id="iAk-1w-7io"/>
-                            <constraint firstItem="khq-4K-Qqx" firstAttribute="trailing" secondItem="YZ7-D9-qXe" secondAttribute="trailing" constant="103" id="img-o4-Me1"/>
-                            <constraint firstItem="khq-4K-Qqx" firstAttribute="bottom" secondItem="YZ7-D9-qXe" secondAttribute="bottom" constant="73" id="rc9-OL-rw4"/>
-                            <constraint firstItem="uQv-r2-Y08" firstAttribute="trailing" secondItem="87W-qA-eiG" secondAttribute="trailing" id="tTR-Zi-gwc"/>
-                            <constraint firstItem="YZ7-D9-qXe" firstAttribute="leading" secondItem="khq-4K-Qqx" secondAttribute="leading" constant="176" id="wNZ-Sr-Bm2"/>
-                            <constraint firstItem="uQv-r2-Y08" firstAttribute="centerY" secondItem="dpM-qY-ain" secondAttribute="centerY" id="y60-qr-UqB"/>
-                            <constraint firstItem="87W-qA-eiG" firstAttribute="firstBaseline" secondItem="dqF-QE-Gba" secondAttribute="baseline" id="yhU-Vk-cBf"/>
-                            <constraint firstItem="qwJ-VF-p6W" firstAttribute="top" secondItem="87W-qA-eiG" secondAttribute="bottom" constant="67" id="z4s-Sp-8y0"/>
+                            <constraint firstItem="hH1-Ux-hXt" firstAttribute="leading" secondItem="khq-4K-Qqx" secondAttribute="leading" constant="15" id="D6p-e2-HGt"/>
+                            <constraint firstItem="khq-4K-Qqx" firstAttribute="bottom" secondItem="hH1-Ux-hXt" secondAttribute="bottom" constant="25" id="Okj-CC-r92"/>
+                            <constraint firstItem="khq-4K-Qqx" firstAttribute="trailing" secondItem="hH1-Ux-hXt" secondAttribute="trailing" constant="15" id="fxp-dM-7Cj"/>
+                            <constraint firstItem="hH1-Ux-hXt" firstAttribute="top" secondItem="khq-4K-Qqx" secondAttribute="top" constant="25" id="oaa-54-y1h"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Italian Recipes List" id="k2l-gl-Eg7"/>
@@ -552,10 +472,10 @@
             </objects>
             <point key="canvasLocation" x="-30.434782608695656" y="108.48214285714285"/>
         </scene>
-        <!--View Controller-->
+        <!--Dumplings View-->
         <scene sceneID="cvA-TG-xai">
             <objects>
-                <viewController id="eKj-jh-zG5" sceneMemberID="viewController">
+                <viewController title="Dumplings View" id="eKj-jh-zG5" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RPg-fr-2BF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -566,13 +486,22 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="21t-5A-0oS">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1600"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="colltunasi pic" translatesAutoresizingMaskIntoConstraints="NO" id="t2h-ng-olx">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="262"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Traditional Moldovian cheese dumplings are made with a homemade farmers cheese, but you can use any filling." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dNF-61-aia">
+                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="H37-Lu-LEj">
+                                                <rect key="frame" x="8" y="0.0" width="398" height="249"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="colltunasi pic" translatesAutoresizingMaskIntoConstraints="NO" id="t2h-ng-olx">
+                                                        <rect key="frame" x="20" y="0.0" width="358" height="228"/>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Dumplings stuffed with cheese" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1FF-WG-FF7">
+                                                        <rect key="frame" x="72" y="228" width="254" height="21"/>
+                                                        <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="18"/>
+                                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Traditional Moldovian cheese dumplings are made with a homemade farmers cheese, but you can use any filling." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dNF-61-aia">
                                                 <rect key="frame" x="32" y="325" width="350" height="61"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -664,17 +593,13 @@
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" Dumplings stuffed with cheese" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1FF-WG-FF7">
-                                                <rect key="frame" x="61" y="255" width="292" height="27"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="18"/>
-                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
+                                            <constraint firstItem="dNF-61-aia" firstAttribute="top" secondItem="H37-Lu-LEj" secondAttribute="bottom" id="F5e-rv-xkU"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="H37-Lu-LEj" secondAttribute="trailing" id="O1H-CM-5tn"/>
                                             <constraint firstAttribute="height" constant="1600" id="ez0-xL-bZo"/>
+                                            <constraint firstItem="H37-Lu-LEj" firstAttribute="leading" secondItem="21t-5A-0oS" secondAttribute="leadingMargin" id="gg8-51-cFA"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -704,10 +629,10 @@
             </objects>
             <point key="canvasLocation" x="795.6521739130435" y="-1355.3571428571429"/>
         </scene>
-        <!--View Controller-->
+        <!--Sarmale View-->
         <scene sceneID="47D-Yu-WHU">
             <objects>
-                <viewController id="yX3-3Y-Bfr" sceneMemberID="viewController">
+                <viewController title="Sarmale View" id="yX3-3Y-Bfr" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="I1c-aC-zHJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -830,10 +755,10 @@
             </objects>
             <point key="canvasLocation" x="-146.37681159420291" y="-1355.3571428571429"/>
         </scene>
-        <!--View Controller-->
+        <!--Cheese Pie-->
         <scene sceneID="hLL-g2-JDQ">
             <objects>
-                <viewController id="5br-re-Jn1" sceneMemberID="viewController">
+                <viewController title="Cheese Pie" id="5br-re-Jn1" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="i2Q-YG-WGa">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -956,10 +881,10 @@
             </objects>
             <point key="canvasLocation" x="1715.9420289855075" y="-1355.3571428571429"/>
         </scene>
-        <!--View Controller-->
+        <!--Fried Fish-->
         <scene sceneID="UTe-C6-kOR">
             <objects>
-                <viewController id="zuF-Bx-dBN" sceneMemberID="viewController">
+                <viewController title="Fried Fish" id="zuF-Bx-dBN" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Cqd-Ek-h7N">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -974,7 +899,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="262"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Moldovan Cheese Pie" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nZR-U2-cSo">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fried Fish" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nZR-U2-cSo">
                                                 <rect key="frame" x="61" y="260" width="292" height="22"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="18"/>
@@ -1086,10 +1011,10 @@ It is usually served with polenta (mămăliga) and garlic, oil, and vinegar sauc
             </objects>
             <point key="canvasLocation" x="2702.898550724638" y="-1355.3571428571429"/>
         </scene>
-        <!--View Controller-->
+        <!--Scampi-->
         <scene sceneID="SRt-Hb-Rr4">
             <objects>
-                <viewController id="R2s-Vu-RGg" sceneMemberID="viewController">
+                <viewController title="Scampi" id="R2s-Vu-RGg" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ix1-TA-WSu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1192,10 +1117,10 @@ It is usually served with polenta (mămăliga) and garlic, oil, and vinegar sauc
             </objects>
             <point key="canvasLocation" x="3986.9565217391309" y="-1355.3571428571429"/>
         </scene>
-        <!--View Controller-->
+        <!--Cioppino-->
         <scene sceneID="mWX-R7-ZJa">
             <objects>
-                <viewController id="yAX-4K-7oA" sceneMemberID="viewController">
+                <viewController title="Cioppino" id="yAX-4K-7oA" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XO4-pF-cHC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1336,10 +1261,10 @@ Add reserved broth; bring to a simmer. Add fish and shrimp. Cover; cook just unt
             </objects>
             <point key="canvasLocation" x="4842.0289855072469" y="-1355.3571428571429"/>
         </scene>
-        <!--View Controller-->
+        <!--Linguine-->
         <scene sceneID="Ms7-TD-QKL">
             <objects>
-                <viewController id="kjp-rR-TNz" sceneMemberID="viewController">
+                <viewController title="Linguine" id="kjp-rR-TNz" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kGx-JV-WGt">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1465,10 +1390,10 @@ Remove from heat. Add parsley and butter and toss until butter is melted. Sprink
             </objects>
             <point key="canvasLocation" x="5715.9420289855079" y="-1355.3571428571429"/>
         </scene>
-        <!--View Controller-->
+        <!--Mackerel-->
         <scene sceneID="AEg-7W-u4k">
             <objects>
-                <viewController id="9pl-zv-ugk" sceneMemberID="viewController">
+                <viewController title="Mackerel" id="9pl-zv-ugk" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hTY-1E-NG2">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1578,10 +1503,10 @@ Cook the mackerel fillets in a non-stick pan with a drizzle of oil and a pinch o
             </objects>
             <point key="canvasLocation" x="6537.68115942029" y="-1355.3571428571429"/>
         </scene>
-        <!--View Controller-->
+        <!--Mussels-->
         <scene sceneID="ZAl-hZ-SoI">
             <objects>
-                <viewController id="0Yh-Tw-DpD" sceneMemberID="viewController">
+                <viewController title="Mussels" id="0Yh-Tw-DpD" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="05E-TT-Uie">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1693,10 +1618,10 @@ Transfer mussels and sauce to a serving bowl and top with tarragon. Serve with b
             </objects>
             <point key="canvasLocation" x="7485.507246376812" y="-1355.3571428571429"/>
         </scene>
-        <!--View Controller-->
+        <!--w-->
         <scene sceneID="8Cm-4t-ljd">
             <objects>
-                <viewController id="h1V-8c-rfZ" sceneMemberID="viewController">
+                <viewController title="w" id="h1V-8c-rfZ" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dIN-vk-kef">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1755,10 +1680,10 @@ Vasili Mandalac(Full Stack Web Developer)
             </objects>
             <point key="canvasLocation" x="657" y="804"/>
         </scene>
-        <!--Russian Recipes List-->
+        <!--Russian Recipes List View-->
         <scene sceneID="0zP-NC-kUq">
             <objects>
-                <viewController id="d2z-6z-Qud" sceneMemberID="viewController">
+                <viewController title="Russian Recipes List View" id="d2z-6z-Qud" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OlR-wa-7gR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1848,10 +1773,10 @@ Vasili Mandalac(Full Stack Web Developer)
             </objects>
             <point key="canvasLocation" x="1441" y="804"/>
         </scene>
-        <!--Greek Recipes List-->
+        <!--Greek Recipes View-->
         <scene sceneID="die-8K-jyO">
             <objects>
-                <viewController id="vs5-rG-unR" sceneMemberID="viewController">
+                <viewController title="Greek Recipes View" id="vs5-rG-unR" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6gl-IZ-R2F">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1941,10 +1866,10 @@ Vasili Mandalac(Full Stack Web Developer)
             </objects>
             <point key="canvasLocation" x="2241" y="804"/>
         </scene>
-        <!--View Controller-->
+        <!--Borshch-->
         <scene sceneID="Pga-76-ChZ">
             <objects>
-                <viewController id="WFs-qE-srm" sceneMemberID="viewController">
+                <viewController title="Borshch" id="WFs-qE-srm" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9Uj-Mj-mQj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2051,10 +1976,10 @@ Poles call their beet soup barszcz and it has the ruby-red color most people ass
             </objects>
             <point key="canvasLocation" x="-1354" y="1708"/>
         </scene>
-        <!--View Controller-->
+        <!--Beef Stroganoff-->
         <scene sceneID="sAe-8a-LXi">
             <objects>
-                <viewController id="xvJ-1q-pjU" sceneMemberID="viewController">
+                <viewController title="Beef Stroganoff" id="xvJ-1q-pjU" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="T5f-MY-eI1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2149,10 +2074,10 @@ Step 3. Stir the flour into the juices on the empty side of the pan. Pour in bee
             </objects>
             <point key="canvasLocation" x="-645" y="1708"/>
         </scene>
-        <!--View Controller-->
+        <!--Pelmeni-->
         <scene sceneID="NOo-80-Uj0">
             <objects>
-                <viewController id="KGH-U5-zYK" sceneMemberID="viewController">
+                <viewController title="Pelmeni" id="KGH-U5-zYK" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iIn-Bq-sSk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2260,10 +2185,10 @@ Filling
             </objects>
             <point key="canvasLocation" x="54" y="1708"/>
         </scene>
-        <!--View Controller-->
+        <!--Fish Soup-->
         <scene sceneID="XOr-Ep-QE4">
             <objects>
-                <viewController id="0RF-nD-DCe" sceneMemberID="viewController">
+                <viewController title="Fish Soup" id="0RF-nD-DCe" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zHy-4T-NrN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2366,10 +2291,10 @@ Filling
             </objects>
             <point key="canvasLocation" x="738" y="1708"/>
         </scene>
-        <!--View Controller-->
+        <!--Olivier-->
         <scene sceneID="zPe-EH-fsr">
             <objects>
-                <viewController id="17B-fc-8Kw" sceneMemberID="viewController">
+                <viewController title="Olivier" id="17B-fc-8Kw" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GHZ-Lo-mCD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2476,10 +2401,10 @@ If you'd like to serve this salad on Shabbat but don't have time to prepare ever
             </objects>
             <point key="canvasLocation" x="1441" y="1708"/>
         </scene>
-        <!--View Controller-->
+        <!--Lentil Soup View-->
         <scene sceneID="9Lj-Fr-cdO">
             <objects>
-                <viewController id="vDw-eg-cNB" sceneMemberID="viewController">
+                <viewController title="Lentil Soup View" id="vDw-eg-cNB" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OlM-oG-PmX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2583,10 +2508,10 @@ As an added bonus, fakes soupa is incredibly healthy, packed with fiber, vitam
             </objects>
             <point key="canvasLocation" x="2241" y="1708"/>
         </scene>
-        <!--View Controller-->
+        <!--Greek Salad-->
         <scene sceneID="A5Z-iO-GQX">
             <objects>
-                <viewController id="bbC-t8-jVI" sceneMemberID="viewController">
+                <viewController title="Greek Salad" id="bbC-t8-jVI" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7Ki-ZM-bfk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2693,10 +2618,10 @@ Step 1. Wash and dry the tomatoes, cucumber and green pepper. Clean off the oute
             </objects>
             <point key="canvasLocation" x="2958" y="1708"/>
         </scene>
-        <!--View Controller-->
+        <!--Lamb Stew View-->
         <scene sceneID="Cez-XW-GtW">
             <objects>
-                <viewController id="ffW-xg-BFa" sceneMemberID="viewController">
+                <viewController title="Lamb Stew View" id="ffW-xg-BFa" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EgJ-aA-i8n">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2801,10 +2726,10 @@ Step 1. Wash and dry the tomatoes, cucumber and green pepper. Clean off the oute
             </objects>
             <point key="canvasLocation" x="3680" y="1708"/>
         </scene>
-        <!--View Controller-->
+        <!--Lemon Garlic-->
         <scene sceneID="hx1-v9-eQr">
             <objects>
-                <viewController id="r19-JA-21z" sceneMemberID="viewController">
+                <viewController title="Lemon Garlic" id="r19-JA-21z" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mmf-Vi-BMa">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2912,10 +2837,10 @@ Because the recipe includes chicken and potatoes all you need to round out the m
             </objects>
             <point key="canvasLocation" x="4384" y="1708"/>
         </scene>
-        <!--View Controller-->
+        <!--Baked Eggplant-->
         <scene sceneID="Rfd-qG-34j">
             <objects>
-                <viewController id="Grg-nG-V5e" sceneMemberID="viewController">
+                <viewController title="Baked Eggplant" id="Grg-nG-V5e" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tQc-l3-hGC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
