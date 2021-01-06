@@ -69,40 +69,40 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="808"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recipes By Countries" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vWO-eS-sc3">
-                                        <rect key="frame" x="104" y="0.0" width="207" height="30"/>
+                                        <rect key="frame" x="113" y="0.0" width="188" height="40"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="sfZ-ch-waa"/>
+                                            <constraint firstAttribute="height" constant="40" id="sfZ-ch-waa"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
+                                        <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleAspectFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="AXL-1D-UN2">
-                                        <rect key="frame" x="0.0" y="30" width="414" height="778"/>
+                                        <rect key="frame" x="0.0" y="40" width="414" height="768"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9JY-LO-3xK">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="194.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="192"/>
                                                 <state key="normal" title="Button" image="Moldavian"/>
                                                 <connections>
                                                     <segue destination="pbA-E4-jRz" kind="show" id="VS8-00-5Vm"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4fy-OD-Wuj">
-                                                <rect key="frame" x="0.0" y="194.5" width="414" height="194.5"/>
+                                                <rect key="frame" x="0.0" y="192" width="414" height="192"/>
                                                 <state key="normal" title="Button" image="Russian"/>
                                                 <connections>
                                                     <segue destination="d2z-6z-Qud" kind="show" id="oGB-ET-PQN"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TWJ-84-pbw">
-                                                <rect key="frame" x="0.0" y="389" width="414" height="194.5"/>
+                                                <rect key="frame" x="0.0" y="384" width="414" height="192"/>
                                                 <state key="normal" title="Button" image="Italy R"/>
                                                 <connections>
                                                     <segue destination="r5T-Uv-MbG" kind="show" id="fOf-Fy-jnQ"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rag-yH-RxI">
-                                                <rect key="frame" x="0.0" y="583.5" width="414" height="194.5"/>
+                                                <rect key="frame" x="0.0" y="576" width="414" height="192"/>
                                                 <state key="normal" title="Button" image="Greek R"/>
                                                 <connections>
                                                     <segue destination="vs5-rG-unR" kind="show" id="24a-Jb-zIN"/>
@@ -140,130 +140,95 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C2D-0a-XTQ">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1250"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="polenta pic" translatesAutoresizingMaskIntoConstraints="NO" id="zgd-IU-r8U">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="262"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="polenta pic" translatesAutoresizingMaskIntoConstraints="NO" id="zgd-IU-r8U">
+                                                <rect key="frame" x="5" y="5" width="404" height="228"/>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Polenta with Cheese and Meet  (mamaliga cu friptura)   " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VEn-ub-KJk">
-                                                <rect key="frame" x="61" y="260" width="292" height="46"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="18"/>
-                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HWD-jr-9pi">
-                                                <rect key="frame" x="32" y="324" width="350" height="103"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HWD-jr-9pi">
+                                                <rect key="frame" x="17" y="301" width="378.5" height="98.5"/>
                                                 <string key="text">   Mamaliga is a traditional dish from Moldova, a small Eastern European country that used to be a part of the Soviet Union. These days, it has emerged as a hip ethnic food that can be seen in fancy restaurants of Moldova.</string>
                                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ingredients" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2r7-Sz-ejJ">
-                                                <rect key="frame" x="150" y="447" width="114" height="26"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
-                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="• 3 cups cold water" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qih-Bp-DmO">
-                                                <rect key="frame" x="32" y="497" width="149" height="20"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
-                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="• 1 cup corn meal (finely ground)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fk2-0D-sHf">
-                                                <rect key="frame" x="32" y="522" width="252" height="20"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="60" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="45h-a7-Txc">
+                                                <rect key="frame" x="17" y="639" width="379" height="570.5"/>
+                                                <mutableString key="text">• Pour cold water into the sauce pan and set on low-to-medium heat.
+
+• When the water is still cold, slowly pour the corn meal into the water while stirring, preferably with either a wooden or a plastic spoon. (Material of the spoon is important since corn porridge sticks to metal.) The corn meal should be mixed into the water as soon as it enters the water in order to prevent lumps.
+
+• Let the porridge simmer for about 10 minutes, until it thickens.
+
+• Add butter and salt. Stir vigorously for about 4-5 minutes.
+
+• Transfer the porridge to a smooth-walled bowl, preferably ceramic. Smooth out the surface with a spoon.
+
+• Wait about 5 minutes, until the dish solidifies and becomes almost springy to the touch.
+
+• Try to flip the yellow “cake” out of the pan onto a plate. It should come out easily. (A little prodding with a knife may be needed.) If it is too stuck to the bowls to be flipped out, no worries. You can slice the dish right inside the pan.</mutableString>
                                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="• ½ teaspoon salt" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V4D-JV-Q8c">
-                                                <rect key="frame" x="32" y="547" width="140" height="20"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Polenta with Cheese and Meet  (mamaliga cu friptura)   " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QJS-uN-MTX">
+                                                <rect key="frame" x="17" y="241" width="379" height="42"/>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="18"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
+                                                <size key="shadowOffset" width="0.0" height="0.0"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="• 3 tablespoons butter, cut into small pieces" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RpJ-Xh-qD5">
-                                                <rect key="frame" x="32" y="572" width="339" height="20"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
-                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Directions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YJI-kE-HNJ">
-                                                <rect key="frame" x="156" y="662" width="102" height="26"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Directions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YJI-kE-HNJ">
+                                                <rect key="frame" x="155.5" y="582" width="102" height="26"/>
                                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="• Pour cold water into the sauce pan and set on low-to-medium heat." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="45h-a7-Txc">
-                                                <rect key="frame" x="32" y="715" width="350" height="41"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="• 3 cups cold water • 1 cup corn meal (finely ground) • ½ teaspoon salt • 3 tablespoons butter, cut into small pieces" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qih-Bp-DmO">
+                                                <rect key="frame" x="17" y="475" width="379" height="79"/>
                                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
-                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QCV-y3-8Cs">
-                                                <rect key="frame" x="32" y="770" width="350" height="160"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">• When the water is still cold, slowly pour the corn meal into the water while stirring, preferably with either a wooden or a plastic spoon. (Material of the spoon is important since corn porridge sticks to metal.) The corn meal should be mixed into the water as soon as it enters the water in order to prevent lumps.</string>
-                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
-                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="• Let the porridge simmer for about 10 minutes, until it thickens." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aWY-49-edA">
-                                                <rect key="frame" x="32" y="938" width="350" height="42"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
-                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="• Pour cold water into the sauce pan and set on low-to-medium heat." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v6F-tD-TVU">
-                                                <rect key="frame" x="32" y="600" width="350" height="41"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
-                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="• Add butter and salt. Stir vigorously for about 4-5 minutes." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="46l-rX-HpH">
-                                                <rect key="frame" x="32" y="993" width="350" height="41"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
-                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="• Transfer the porridge to a smooth-walled bowl, preferably ceramic. Smooth out the surface with a spoon." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C46-N8-U7W">
-                                                <rect key="frame" x="32" y="1047" width="350" height="60"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
-                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="• Wait about 5 minutes, until the dish solidifies and becomes almost springy to the touch." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a3f-eq-lFN">
-                                                <rect key="frame" x="32" y="1123" width="339" height="69"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="114" placeholderIntrinsicHeight="26" text="Ingredients" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XXy-bb-3c1">
+                                                <rect key="frame" x="149.5" y="426" width="114" height="26"/>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="1200" id="faG-Dj-kLZ"/>
+                                            <constraint firstAttribute="trailing" secondItem="QJS-uN-MTX" secondAttribute="trailing" constant="18" id="2Ga-To-Jd9"/>
+                                            <constraint firstItem="QJS-uN-MTX" firstAttribute="top" secondItem="zgd-IU-r8U" secondAttribute="bottom" constant="8" symbolic="YES" id="5wl-PT-Ecw"/>
+                                            <constraint firstItem="qih-Bp-DmO" firstAttribute="top" secondItem="HWD-jr-9pi" secondAttribute="bottom" constant="75.5" id="6LS-qo-aj7"/>
+                                            <constraint firstItem="HWD-jr-9pi" firstAttribute="top" secondItem="C2D-0a-XTQ" secondAttribute="top" constant="301" id="7zA-L0-pIb"/>
+                                            <constraint firstItem="45h-a7-Txc" firstAttribute="leading" secondItem="C2D-0a-XTQ" secondAttribute="leading" constant="17" id="Ae7-Xg-c3w"/>
+                                            <constraint firstItem="XXy-bb-3c1" firstAttribute="centerX" secondItem="HWD-jr-9pi" secondAttribute="centerX" id="Edi-uW-LdP"/>
+                                            <constraint firstItem="XXy-bb-3c1" firstAttribute="top" secondItem="HWD-jr-9pi" secondAttribute="bottom" constant="26.5" id="LEX-H9-UAq"/>
+                                            <constraint firstItem="45h-a7-Txc" firstAttribute="width" secondItem="qih-Bp-DmO" secondAttribute="width" id="NAP-DK-wKJ"/>
+                                            <constraint firstItem="YJI-kE-HNJ" firstAttribute="top" secondItem="qih-Bp-DmO" secondAttribute="bottom" constant="28" id="QuX-Lg-WTX"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="HWD-jr-9pi" secondAttribute="trailing" id="SCX-5o-6p0"/>
+                                            <constraint firstAttribute="trailing" secondItem="45h-a7-Txc" secondAttribute="trailing" constant="18" id="aFo-1S-vRw"/>
+                                            <constraint firstItem="YJI-kE-HNJ" firstAttribute="centerX" secondItem="qih-Bp-DmO" secondAttribute="centerX" id="f2z-AI-7bB"/>
+                                            <constraint firstAttribute="height" constant="1250" id="faG-Dj-kLZ"/>
+                                            <constraint firstItem="qih-Bp-DmO" firstAttribute="width" secondItem="HWD-jr-9pi" secondAttribute="width" multiplier="1.00132" id="hxr-j4-Dhs"/>
+                                            <constraint firstItem="QJS-uN-MTX" firstAttribute="leading" secondItem="C2D-0a-XTQ" secondAttribute="leading" constant="17" id="m6c-Me-LiU"/>
+                                            <constraint firstItem="YJI-kE-HNJ" firstAttribute="height" secondItem="qih-Bp-DmO" secondAttribute="height" multiplier="0.329114" id="oZ8-1V-ygD"/>
+                                            <constraint firstItem="HWD-jr-9pi" firstAttribute="leading" secondItem="C2D-0a-XTQ" secondAttribute="leading" constant="17" id="p6z-jW-wm9"/>
+                                            <constraint firstAttribute="trailing" secondItem="qih-Bp-DmO" secondAttribute="trailing" constant="18" id="tGI-BB-urS"/>
+                                            <constraint firstItem="45h-a7-Txc" firstAttribute="top" secondItem="qih-Bp-DmO" secondAttribute="bottom" constant="85" id="uKA-qz-J5k"/>
+                                            <constraint firstItem="HWD-jr-9pi" firstAttribute="top" secondItem="QJS-uN-MTX" secondAttribute="bottom" constant="18" id="x4R-wa-6yy"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="C2D-0a-XTQ" firstAttribute="width" secondItem="gUX-Db-OTY" secondAttribute="width" id="2rD-7f-Bca"/>
+                                    <constraint firstItem="zgd-IU-r8U" firstAttribute="top" secondItem="j3F-Jh-gIX" secondAttribute="top" constant="5" id="A59-bt-5tX"/>
                                     <constraint firstItem="C2D-0a-XTQ" firstAttribute="bottom" secondItem="GEf-uT-Q9d" secondAttribute="bottom" id="Ov3-OA-4bv"/>
                                     <constraint firstItem="C2D-0a-XTQ" firstAttribute="leading" secondItem="GEf-uT-Q9d" secondAttribute="leading" id="bnR-E5-TTx"/>
+                                    <constraint firstItem="zgd-IU-r8U" firstAttribute="leading" secondItem="j3F-Jh-gIX" secondAttribute="leading" constant="5" id="dRD-Tg-7sd"/>
+                                    <constraint firstAttribute="trailing" secondItem="zgd-IU-r8U" secondAttribute="trailing" constant="5" id="jab-vb-0jW"/>
                                     <constraint firstItem="GEf-uT-Q9d" firstAttribute="top" secondItem="C2D-0a-XTQ" secondAttribute="top" id="mjZ-vu-G7J"/>
                                     <constraint firstItem="C2D-0a-XTQ" firstAttribute="trailing" secondItem="GEf-uT-Q9d" secondAttribute="trailing" id="qcE-h5-4Sh"/>
                                 </constraints>
@@ -294,11 +259,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleAspectFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="cy1-56-B8e">
+                            <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillEqually" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="cy1-56-B8e">
                                 <rect key="frame" x="15" y="113" width="384" height="724"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" placeholderIntrinsicWidth="400" placeholderIntrinsicHeight="135" contentHorizontalAlignment="leading" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="6gn-HY-5cc">
-                                        <rect key="frame" x="0.0" y="0.0" width="369" height="135"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="384" height="135"/>
                                         <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="18"/>
                                         <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <size key="titleShadowOffset" width="2" height="0.0"/>
@@ -310,7 +275,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" placeholderIntrinsicWidth="400" placeholderIntrinsicHeight="135.5" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="2Qm-gN-4jn">
-                                        <rect key="frame" x="0.0" y="147" width="369" height="135.5"/>
+                                        <rect key="frame" x="0.0" y="147" width="384" height="135.5"/>
                                         <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <state key="normal" title="Cheese Dumplings" image="Cheese Dumplings">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -320,7 +285,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" placeholderIntrinsicWidth="400" placeholderIntrinsicHeight="135" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ux9-22-v6P">
-                                        <rect key="frame" x="0.0" y="294.5" width="369" height="135"/>
+                                        <rect key="frame" x="0.0" y="294.5" width="384" height="135"/>
                                         <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <state key="normal" title="Cheese Pie" image="Cheese Pie">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -330,7 +295,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="748" placeholderIntrinsicWidth="400" placeholderIntrinsicHeight="135.5" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mWf-br-YcE">
-                                        <rect key="frame" x="0.0" y="441.5" width="369" height="135.5"/>
+                                        <rect key="frame" x="0.0" y="441.5" width="384" height="135.5"/>
                                         <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <state key="normal" title="Stuffed Cabbage" image="stuffed cabages">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -340,7 +305,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" placeholderIntrinsicWidth="400" placeholderIntrinsicHeight="135" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="92V-7S-7Do">
-                                        <rect key="frame" x="0.0" y="589" width="369" height="135"/>
+                                        <rect key="frame" x="0.0" y="589" width="384" height="135"/>
                                         <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <state key="normal" title="Fried Fish" image="Fried Fish">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -350,13 +315,6 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="92V-7S-7Do" secondAttribute="trailing" constant="15" id="Dgp-M9-sLT"/>
-                                    <constraint firstAttribute="trailing" secondItem="2Qm-gN-4jn" secondAttribute="trailing" constant="15" id="JDN-TP-rQB"/>
-                                    <constraint firstAttribute="trailing" secondItem="mWf-br-YcE" secondAttribute="trailing" constant="15" id="cOK-S4-klq"/>
-                                    <constraint firstAttribute="trailing" secondItem="6gn-HY-5cc" secondAttribute="trailing" constant="15" id="dLW-iU-hA5"/>
-                                    <constraint firstAttribute="trailing" secondItem="Ux9-22-v6P" secondAttribute="trailing" constant="15" id="yMR-a4-DRH"/>
-                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="rMw-Ax-51J"/>
@@ -382,11 +340,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="hH1-Ux-hXt">
+                            <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillEqually" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="hH1-Ux-hXt">
                                 <rect key="frame" x="15" y="113" width="384" height="724"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="uQv-r2-Y08">
-                                        <rect key="frame" x="0.0" y="0.0" width="369" height="135"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="384" height="135"/>
                                         <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <state key="normal" title="Shrimp Scampi" image="shrimp scmapi">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -396,7 +354,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="XxS-M6-buu">
-                                        <rect key="frame" x="0.0" y="147" width="369" height="135.5"/>
+                                        <rect key="frame" x="0.0" y="147" width="384" height="135.5"/>
                                         <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <state key="normal" title="Ciopinno" image="ciopinno">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -406,7 +364,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="87W-qA-eiG">
-                                        <rect key="frame" x="0.0" y="294.5" width="369" height="135"/>
+                                        <rect key="frame" x="0.0" y="294.5" width="384" height="135"/>
                                         <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <state key="normal" title="Liguini and Clams" image="liguini">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -416,7 +374,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Qpl-WZ-a9R">
-                                        <rect key="frame" x="0.0" y="441.5" width="369" height="135.5"/>
+                                        <rect key="frame" x="0.0" y="441.5" width="384" height="135.5"/>
                                         <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <state key="normal" title="Mackerel with Mustard" image="Mackerel">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -426,7 +384,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Bu9-Tc-i5p">
-                                        <rect key="frame" x="0.0" y="589" width="369" height="135"/>
+                                        <rect key="frame" x="0.0" y="589" width="384" height="135"/>
                                         <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <state key="normal" title="Steamed Mussels" image="steamed mussels">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -436,13 +394,6 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="uQv-r2-Y08" secondAttribute="trailing" constant="15" id="Je6-YF-xr4"/>
-                                    <constraint firstAttribute="trailing" secondItem="XxS-M6-buu" secondAttribute="trailing" constant="15" id="Tfv-8q-kKO"/>
-                                    <constraint firstAttribute="trailing" secondItem="Qpl-WZ-a9R" secondAttribute="trailing" constant="15" id="csu-hi-WEt"/>
-                                    <constraint firstAttribute="trailing" secondItem="Bu9-Tc-i5p" secondAttribute="trailing" constant="15" id="kXA-2h-1Mk"/>
-                                    <constraint firstAttribute="trailing" secondItem="87W-qA-eiG" secondAttribute="trailing" constant="15" id="wgu-BE-rEO"/>
-                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="khq-4K-Qqx"/>
@@ -491,52 +442,42 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="21t-5A-0oS">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1600"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1550"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="H37-Lu-LEj">
-                                                <rect key="frame" x="8" y="0.0" width="398" height="249"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="H37-Lu-LEj">
+                                                <rect key="frame" x="5" y="5" width="404" height="228"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="colltunasi pic" translatesAutoresizingMaskIntoConstraints="NO" id="t2h-ng-olx">
-                                                        <rect key="frame" x="20" y="0.0" width="358" height="228"/>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="colltunasi pic" translatesAutoresizingMaskIntoConstraints="NO" id="t2h-ng-olx">
+                                                        <rect key="frame" x="0.0" y="0.0" width="404" height="228"/>
                                                     </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Dumplings stuffed with cheese" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1FF-WG-FF7">
-                                                        <rect key="frame" x="72" y="228" width="254" height="21"/>
-                                                        <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="18"/>
-                                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
                                                 </subviews>
                                             </stackView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Traditional Moldovian cheese dumplings are made with a homemade farmers cheese, but you can use any filling." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dNF-61-aia">
-                                                <rect key="frame" x="32" y="325" width="350" height="61"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Traditional Moldovian cheese dumplings are made with a homemade farmers cheese, but you can use any filling." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dNF-61-aia">
+                                                <rect key="frame" x="20" y="279" width="374" height="59"/>
                                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ingredients" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="muc-74-WW0">
-                                                <rect key="frame" x="150" y="410" width="114" height="26"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingredients" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="muc-74-WW0">
+                                                <rect key="frame" x="150" y="367" width="114" height="25.5"/>
                                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dumpling Wrappers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OTq-Eu-tKV">
-                                                <rect key="frame" x="32" y="456" width="152" height="20"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dumpling Wrappers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OTq-Eu-tKV">
+                                                <rect key="frame" x="20" y="431" width="374" height="20"/>
                                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cheese Filling" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ard-xX-kWC">
-                                                <rect key="frame" x="32" y="567" width="106" height="20"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cheese Filling" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ard-xX-kWC">
+                                                <rect key="frame" x="20" y="530" width="374" height="20"/>
                                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UgV-dR-Hca">
-                                                <rect key="frame" x="32" y="589" width="350" height="122"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UgV-dR-Hca">
+                                                <rect key="frame" x="20" y="550.5" width="374" height="118"/>
                                                 <string key="text">• 1 cup cottage 
 • 1 egg
 • 1 sprig green onion (minced)
@@ -547,9 +488,8 @@
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kur-wz-kVQ">
-                                                <rect key="frame" x="32" y="484" width="350" height="59"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kur-wz-kVQ">
+                                                <rect key="frame" x="20" y="451" width="374" height="79"/>
                                                 <string key="text">• 1 1/2 cups flour
 • 2 eggs
 • 1/2 teaspoon salt
@@ -558,16 +498,20 @@
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Directions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PVy-nP-YpM">
-                                                <rect key="frame" x="156" y="744" width="102" height="22"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Directions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PVy-nP-YpM">
+                                                <rect key="frame" x="156.5" y="692" width="101.5" height="25.5"/>
                                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="40" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zLG-Gi-iYr">
-                                                <rect key="frame" x="32" y="799" width="350" height="768"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Dumplings stuffed with cheese" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1FF-WG-FF7">
+                                                <rect key="frame" x="80" y="244" width="254" height="21"/>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="18"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="40" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zLG-Gi-iYr">
+                                                <rect key="frame" x="20" y="756" width="374" height="767"/>
                                                 <string key="text">• Choose a filling option and mix ingredients together in a large bowl.
 
 • To make the wrappers, place flour in a large bowl and make a well in the middle.
@@ -603,16 +547,40 @@
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstItem="dNF-61-aia" firstAttribute="top" secondItem="H37-Lu-LEj" secondAttribute="bottom" id="F5e-rv-xkU"/>
-                                            <constraint firstAttribute="trailingMargin" secondItem="H37-Lu-LEj" secondAttribute="trailing" id="O1H-CM-5tn"/>
-                                            <constraint firstAttribute="height" constant="1600" id="ez0-xL-bZo"/>
-                                            <constraint firstItem="H37-Lu-LEj" firstAttribute="leading" secondItem="21t-5A-0oS" secondAttribute="leadingMargin" id="gg8-51-cFA"/>
+                                            <constraint firstItem="muc-74-WW0" firstAttribute="top" secondItem="1FF-WG-FF7" secondAttribute="bottom" constant="102" id="1aQ-hN-EVg"/>
+                                            <constraint firstItem="Ard-xX-kWC" firstAttribute="firstBaseline" secondItem="Kur-wz-kVQ" secondAttribute="baseline" constant="20" symbolType="layoutAnchor" id="1kT-Ac-idy"/>
+                                            <constraint firstItem="1FF-WG-FF7" firstAttribute="top" secondItem="t2h-ng-olx" secondAttribute="bottom" constant="11" id="336-Kc-YEN"/>
+                                            <constraint firstItem="zLG-Gi-iYr" firstAttribute="leading" secondItem="21t-5A-0oS" secondAttribute="leading" constant="20" symbolic="YES" id="3KM-1A-b8b"/>
+                                            <constraint firstItem="UgV-dR-Hca" firstAttribute="leading" secondItem="21t-5A-0oS" secondAttribute="leading" constant="20" symbolic="YES" id="4mL-wD-Rbg"/>
+                                            <constraint firstItem="OTq-Eu-tKV" firstAttribute="leading" secondItem="21t-5A-0oS" secondAttribute="leading" constant="20" symbolic="YES" id="6k8-be-gk0"/>
+                                            <constraint firstAttribute="trailing" secondItem="OTq-Eu-tKV" secondAttribute="trailing" constant="20" symbolic="YES" id="8lp-cE-DOD"/>
+                                            <constraint firstAttribute="trailing" secondItem="zLG-Gi-iYr" secondAttribute="trailing" constant="20" symbolic="YES" id="9IK-PZ-QjJ"/>
+                                            <constraint firstItem="Kur-wz-kVQ" firstAttribute="leading" secondItem="21t-5A-0oS" secondAttribute="leading" constant="20" symbolic="YES" id="CiB-Od-YQs"/>
+                                            <constraint firstItem="PVy-nP-YpM" firstAttribute="top" secondItem="muc-74-WW0" secondAttribute="bottom" constant="299.5" id="Dat-x2-r5A"/>
+                                            <constraint firstAttribute="trailing" secondItem="Ard-xX-kWC" secondAttribute="trailing" constant="20" symbolic="YES" id="GG7-lL-SBP"/>
+                                            <constraint firstItem="zLG-Gi-iYr" firstAttribute="top" secondItem="PVy-nP-YpM" secondAttribute="bottom" constant="38.5" id="GRn-X7-koB"/>
+                                            <constraint firstItem="dNF-61-aia" firstAttribute="leading" secondItem="21t-5A-0oS" secondAttribute="leading" constant="20" symbolic="YES" id="GX7-Zx-xcb"/>
+                                            <constraint firstAttribute="trailing" secondItem="Kur-wz-kVQ" secondAttribute="trailing" constant="20" symbolic="YES" id="L6j-yz-jFf"/>
+                                            <constraint firstItem="Kur-wz-kVQ" firstAttribute="firstBaseline" secondItem="OTq-Eu-tKV" secondAttribute="baseline" constant="20" symbolType="layoutAnchor" id="LJs-aH-gSK"/>
+                                            <constraint firstItem="OTq-Eu-tKV" firstAttribute="top" secondItem="dNF-61-aia" secondAttribute="bottom" constant="93" id="N4b-Cl-mY1"/>
+                                            <constraint firstItem="1FF-WG-FF7" firstAttribute="centerX" secondItem="t2h-ng-olx" secondAttribute="centerX" id="SD8-dt-91x"/>
+                                            <constraint firstItem="Ard-xX-kWC" firstAttribute="leading" secondItem="21t-5A-0oS" secondAttribute="leading" constant="20" symbolic="YES" id="Vam-EN-84a"/>
+                                            <constraint firstAttribute="trailing" secondItem="UgV-dR-Hca" secondAttribute="trailing" constant="20" symbolic="YES" id="bAe-pH-6tq"/>
+                                            <constraint firstAttribute="trailing" secondItem="dNF-61-aia" secondAttribute="trailing" constant="20" symbolic="YES" id="cQT-lB-Wbg"/>
+                                            <constraint firstAttribute="height" constant="1550" id="ez0-xL-bZo"/>
+                                            <constraint firstItem="UgV-dR-Hca" firstAttribute="firstBaseline" secondItem="Ard-xX-kWC" secondAttribute="baseline" constant="20" symbolType="layoutAnchor" id="gGf-pS-Oth"/>
+                                            <constraint firstItem="muc-74-WW0" firstAttribute="centerX" secondItem="1FF-WG-FF7" secondAttribute="centerX" id="qcx-Pw-VAt"/>
+                                            <constraint firstItem="dNF-61-aia" firstAttribute="top" secondItem="1FF-WG-FF7" secondAttribute="bottom" constant="14" id="tUB-cD-sga"/>
+                                            <constraint firstItem="PVy-nP-YpM" firstAttribute="centerX" secondItem="muc-74-WW0" secondAttribute="centerX" id="xJe-f5-IAD"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="j3H-ws-zhl" firstAttribute="top" secondItem="21t-5A-0oS" secondAttribute="top" id="KL6-9y-SIf"/>
                                     <constraint firstItem="21t-5A-0oS" firstAttribute="leading" secondItem="j3H-ws-zhl" secondAttribute="leading" id="Pre-5V-jpy"/>
+                                    <constraint firstItem="t2h-ng-olx" firstAttribute="leading" secondItem="QHJ-B4-kXT" secondAttribute="leading" constant="5" id="RMf-lN-LcK"/>
+                                    <constraint firstItem="t2h-ng-olx" firstAttribute="top" secondItem="QHJ-B4-kXT" secondAttribute="top" constant="5" id="USE-Hp-5jJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="t2h-ng-olx" secondAttribute="trailing" constant="5" id="h0O-SX-LOS"/>
                                     <constraint firstItem="21t-5A-0oS" firstAttribute="width" secondItem="7lw-k2-DMv" secondAttribute="width" id="maq-IP-Eu0"/>
                                     <constraint firstItem="21t-5A-0oS" firstAttribute="bottom" secondItem="j3H-ws-zhl" secondAttribute="bottom" id="tah-Q5-sZt"/>
                                     <constraint firstItem="21t-5A-0oS" firstAttribute="trailing" secondItem="j3H-ws-zhl" secondAttribute="trailing" id="teD-qd-2oK"/>
@@ -650,35 +618,55 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6LY-au-TnH">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sarmale pic" translatesAutoresizingMaskIntoConstraints="NO" id="OYl-t6-faF">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="262"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sarmale pic" translatesAutoresizingMaskIntoConstraints="NO" id="OYl-t6-faF">
+                                                <rect key="frame" x="5" y="5" width="404" height="228"/>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Stuffed cabbage rolls (Sarmale)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3R4-tp-s7I">
-                                                <rect key="frame" x="61" y="260" width="292" height="19"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stuffed cabbage rolls (Sarmale)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3R4-tp-s7I">
+                                                <rect key="frame" x="81" y="241" width="252" height="21"/>
                                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="18"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xhx-Ns-ddU">
-                                                <rect key="frame" x="32" y="310" width="350" height="100"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xhx-Ns-ddU">
+                                                <rect key="frame" x="20" y="279" width="374" height="98.5"/>
                                                 <string key="text">Sarmale is a popular dish in Eastern European cuisine,  that is made of meat or vegetable mince, mixed with the boiled rice or buckwheat, and wrapped in cabbage or grapes leaves. </string>
                                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ingredients" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="So0-Pe-w7F">
-                                                <rect key="frame" x="150" y="437" width="114" height="26"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Directions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f0d-g6-yUR">
+                                                <rect key="frame" x="156" y="890" width="102" height="26"/>
                                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h8G-IP-Ypd">
-                                                <rect key="frame" x="32" y="485" width="350" height="380"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="54" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Md-LR-LcF">
+                                                <rect key="frame" x="20" y="947" width="374" height="963.5"/>
+                                                <string key="text">• Remove core from cabbage. In a large pot, boil enough water to cover cabbage. Add 2 tablespoons salt and 1/4 cup vinegar to boiling water. Immerse cabbage in boiling water. Cover and cook over medium-high heat for 5 to 7 minutes. With fork or tongs, gently remove leaves as they become tender. Drain well and let cool. Trim the main leaf veins so they are flat like the rest of the cabbage leaves.
+
+• In a large frying pan over medium heat, add oil, onions, celery, bacon, salt, pepper, paprika, parsley leaves and sauté until light golden brown. Remove from heat and let cool for half an hour.
+
+• Combine ground pork, rice and sautéed onion mixture together along with a half cup water, and mix well. This is the meat filling.
+
+• Place 1 to 2 tablespoons of the meat filling in center of cabbage leaf. Fold right hand sideof leaf over filling, then roll from base to bottom of leaf, then with index finger gently tuck left hand side of leaf into cabbage roll to make a nice neat roll.
+
+• Squeeze the juice out of the sauerkraut and place 1/2 on bottom of a pot. Chop any leftover cabbage and place on top of sauerkraut. Place ham hock on top of sauerkraut. Arrange cabbage rolls, seam side down in the pot in neat layers. Place them loosely touching each other and layer on top of one another. Sprinkle with salt between layers. Place the remaining sauerkraut on top of cabbage rolls.
+
+• Spread tomato sauce and tomato juice over sauerkraut and place 1 bay leaf (and optional dill sprig) on top. Add  just enough to cover. Place heavy plate on top to ensure the rolls don't move, making sure there is a couple inches between plate on top of pot. Cover pot and bring to boiling. Reduce heat to simmer and cook for about 2 hours.
+
+• Serve with sour cream and mamaliga (corn porridge similar to polenta) for a real Romanian dish.</string>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingredients" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="So0-Pe-w7F">
+                                                <rect key="frame" x="150" y="402" width="114" height="26"/>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h8G-IP-Ypd">
+                                                <rect key="frame" x="20" y="468" width="291.5" height="373.5"/>
                                                 <string key="text">• 3 lbs head of cabbage
 • 4 Tbsp salt, divided
 • 1/4 cup vinegar
@@ -702,44 +690,35 @@
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Directions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f0d-g6-yUR">
-                                                <rect key="frame" x="156" y="890" width="102" height="26"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
-                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="54" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Md-LR-LcF">
-                                                <rect key="frame" x="32" y="947" width="350" height="1009"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">• Remove core from cabbage. In a large pot, boil enough water to cover cabbage. Add 2 tablespoons salt and 1/4 cup vinegar to boiling water. Immerse cabbage in boiling water. Cover and cook over medium-high heat for 5 to 7 minutes. With fork or tongs, gently remove leaves as they become tender. Drain well and let cool. Trim the main leaf veins so they are flat like the rest of the cabbage leaves.
-
-• In a large frying pan over medium heat, add oil, onions, celery, bacon, salt, pepper, paprika, parsley leaves and sauté until light golden brown. Remove from heat and let cool for half an hour.
-
-• Combine ground pork, rice and sautéed onion mixture together along with a half cup water, and mix well. This is the meat filling.
-
-• Place 1 to 2 tablespoons of the meat filling in center of cabbage leaf. Fold right hand sideof leaf over filling, then roll from base to bottom of leaf, then with index finger gently tuck left hand side of leaf into cabbage roll to make a nice neat roll.
-
-• Squeeze the juice out of the sauerkraut and place 1/2 on bottom of a pot. Chop any leftover cabbage and place on top of sauerkraut. Place ham hock on top of sauerkraut. Arrange cabbage rolls, seam side down in the pot in neat layers. Place them loosely touching each other and layer on top of one another. Sprinkle with salt between layers. Place the remaining sauerkraut on top of cabbage rolls.
-
-• Spread tomato sauce and tomato juice over sauerkraut and place 1 bay leaf (and optional dill sprig) on top. Add  just enough to cover. Place heavy plate on top to ensure the rolls don't move, making sure there is a couple inches between plate on top of pot. Cover pot and bring to boiling. Reduce heat to simmer and cook for about 2 hours.
-
-• Serve with sour cream and mamaliga (corn porridge similar to polenta) for a real Romanian dish.</string>
-                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
-                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
+                                            <constraint firstItem="3R4-tp-s7I" firstAttribute="top" secondItem="OYl-t6-faF" secondAttribute="bottom" constant="8" symbolic="YES" id="264-1c-LCJ"/>
+                                            <constraint firstItem="So0-Pe-w7F" firstAttribute="top" secondItem="3R4-tp-s7I" secondAttribute="bottom" constant="140" id="33I-qf-r92"/>
+                                            <constraint firstItem="Xhx-Ns-ddU" firstAttribute="leading" secondItem="6LY-au-TnH" secondAttribute="leading" constant="20" symbolic="YES" id="9FS-tU-em5"/>
+                                            <constraint firstItem="h8G-IP-Ypd" firstAttribute="leading" secondItem="6LY-au-TnH" secondAttribute="leading" constant="20" symbolic="YES" id="AfR-TA-A0V"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="7Md-LR-LcF" secondAttribute="trailing" constant="20" symbolic="YES" id="HtZ-GG-AjQ"/>
+                                            <constraint firstItem="f0d-g6-yUR" firstAttribute="top" secondItem="So0-Pe-w7F" secondAttribute="bottom" constant="462" id="I3T-eJ-Etp"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="h8G-IP-Ypd" secondAttribute="trailing" constant="20" symbolic="YES" id="KRK-ft-AFT"/>
+                                            <constraint firstItem="7Md-LR-LcF" firstAttribute="leading" secondItem="6LY-au-TnH" secondAttribute="leading" constant="20" symbolic="YES" id="W6r-bG-ouA"/>
+                                            <constraint firstItem="7Md-LR-LcF" firstAttribute="top" secondItem="h8G-IP-Ypd" secondAttribute="bottom" constant="105.5" id="eEe-Ot-RRl"/>
+                                            <constraint firstItem="f0d-g6-yUR" firstAttribute="centerX" secondItem="So0-Pe-w7F" secondAttribute="centerX" id="eqF-KE-Fr7"/>
+                                            <constraint firstItem="3R4-tp-s7I" firstAttribute="centerX" secondItem="OYl-t6-faF" secondAttribute="centerX" id="gDG-gO-VWm"/>
+                                            <constraint firstItem="Xhx-Ns-ddU" firstAttribute="top" secondItem="3R4-tp-s7I" secondAttribute="bottom" constant="17" id="hNf-Tw-TCu"/>
                                             <constraint firstAttribute="height" constant="2000" id="qUM-v9-AZx"/>
+                                            <constraint firstItem="So0-Pe-w7F" firstAttribute="centerX" secondItem="3R4-tp-s7I" secondAttribute="centerX" id="u5t-uq-Sdf"/>
+                                            <constraint firstItem="h8G-IP-Ypd" firstAttribute="top" secondItem="Xhx-Ns-ddU" secondAttribute="bottom" constant="90.5" id="xpW-pp-XX5"/>
+                                            <constraint firstAttribute="trailing" secondItem="Xhx-Ns-ddU" secondAttribute="trailing" constant="20" symbolic="YES" id="yRr-Rx-8DF"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="6LY-au-TnH" firstAttribute="width" secondItem="S2u-4C-Vi2" secondAttribute="width" id="N3M-FW-xtJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="OYl-t6-faF" secondAttribute="trailing" constant="5" id="R4D-mY-FbQ"/>
+                                    <constraint firstItem="OYl-t6-faF" firstAttribute="leading" secondItem="z6o-V3-KSC" secondAttribute="leading" constant="5" id="Txb-Cf-fN0"/>
                                     <constraint firstItem="6LY-au-TnH" firstAttribute="leading" secondItem="gSQ-FZ-peo" secondAttribute="leading" id="ZEd-M3-V2D"/>
                                     <constraint firstItem="gSQ-FZ-peo" firstAttribute="top" secondItem="6LY-au-TnH" secondAttribute="top" id="dgK-p1-tWz"/>
+                                    <constraint firstItem="OYl-t6-faF" firstAttribute="top" secondItem="z6o-V3-KSC" secondAttribute="top" constant="5" id="h3P-XI-fv3"/>
                                     <constraint firstItem="6LY-au-TnH" firstAttribute="trailing" secondItem="gSQ-FZ-peo" secondAttribute="trailing" id="hMz-HL-uzK"/>
                                     <constraint firstItem="6LY-au-TnH" firstAttribute="bottom" secondItem="gSQ-FZ-peo" secondAttribute="bottom" id="vGd-To-1x2"/>
                                 </constraints>
@@ -776,42 +755,30 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C6F-de-c2C">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1350"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="placinta pic" translatesAutoresizingMaskIntoConstraints="NO" id="OSP-yE-nXG">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="262"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placinta pic" translatesAutoresizingMaskIntoConstraints="NO" id="OSP-yE-nXG">
+                                                <rect key="frame" x="5" y="5" width="404" height="228"/>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Moldovan Cheese Pie" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bMm-zL-gIF">
-                                                <rect key="frame" x="61" y="260" width="292" height="21"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Moldovan Cheese Pie" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bMm-zL-gIF">
+                                                <rect key="frame" x="122.5" y="241" width="169.5" height="21"/>
                                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="18"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ingredients" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hqq-m8-miw">
-                                                <rect key="frame" x="150" y="427" width="114" height="26"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Directions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oFS-cN-7Lf">
+                                                <rect key="frame" x="156" y="720" width="102" height="25.5"/>
                                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Directions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oFS-cN-7Lf">
-                                                <rect key="frame" x="156" y="720" width="102" height="22"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
-                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k0a-yJ-aL1">
-                                                <rect key="frame" x="32" y="310" width="350" height="92"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k0a-yJ-aL1">
+                                                <rect key="frame" x="20" y="287" width="374" height="79"/>
                                                 <string key="text">This Moldovan Cheese Pie is a savory reminder of his childhood. My mother told me how to make the filling . If you love cheese and dill you will love this pie. </string>
                                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ABV-2F-dP6">
-                                                <rect key="frame" x="32" y="461" width="350" height="234"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ABV-2F-dP6">
+                                                <rect key="frame" x="20" y="461" width="374" height="236"/>
                                                 <string key="text">• For the dough
 • 4 cups of flour
 • 1¼ cups of water
@@ -827,9 +794,8 @@
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="40" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bGm-lW-dPY">
-                                                <rect key="frame" x="32" y="777" width="350" height="563"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="40" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bGm-lW-dPY">
+                                                <rect key="frame" x="20" y="777" width="374" height="531"/>
                                                 <string key="text">• Mix all the flour ingredients together and kneed until it forms a cohesive ball. If you need add more flour or water if dough is too dry or sticky do so 1 tablespoon at a time
 
 • Refrigerate dough for 1½ hours up to 12 hours
@@ -855,17 +821,41 @@
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingredients" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hqq-m8-miw">
+                                                <rect key="frame" x="150" y="404" width="114" height="26"/>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
+                                            <constraint firstItem="bGm-lW-dPY" firstAttribute="leading" secondItem="C6F-de-c2C" secondAttribute="leading" constant="20" symbolic="YES" id="1z9-rV-nLl"/>
+                                            <constraint firstItem="bGm-lW-dPY" firstAttribute="top" secondItem="oFS-cN-7Lf" secondAttribute="bottom" constant="31.5" id="2fs-35-2sK"/>
+                                            <constraint firstItem="ABV-2F-dP6" firstAttribute="top" secondItem="hqq-m8-miw" secondAttribute="bottom" constant="31" id="2kX-Hr-4VY"/>
+                                            <constraint firstAttribute="trailing" secondItem="k0a-yJ-aL1" secondAttribute="trailing" constant="20" symbolic="YES" id="Dvk-rI-Oa2"/>
+                                            <constraint firstItem="bMm-zL-gIF" firstAttribute="firstBaseline" secondItem="OSP-yE-nXG" secondAttribute="baseline" constant="25" symbolType="layoutAnchor" id="GtK-DK-huf"/>
                                             <constraint firstAttribute="height" constant="1350" id="MT4-NR-JJh"/>
+                                            <constraint firstItem="oFS-cN-7Lf" firstAttribute="centerX" secondItem="hqq-m8-miw" secondAttribute="centerX" id="QgA-L9-dhC"/>
+                                            <constraint firstItem="bMm-zL-gIF" firstAttribute="centerX" secondItem="OSP-yE-nXG" secondAttribute="centerX" id="Qrn-cO-PXS"/>
+                                            <constraint firstItem="ABV-2F-dP6" firstAttribute="leading" secondItem="C6F-de-c2C" secondAttribute="leading" constant="20" symbolic="YES" id="V2g-NE-m9M"/>
+                                            <constraint firstItem="k0a-yJ-aL1" firstAttribute="top" secondItem="bMm-zL-gIF" secondAttribute="bottom" constant="25" id="W5c-bm-eUG"/>
+                                            <constraint firstItem="k0a-yJ-aL1" firstAttribute="leading" secondItem="C6F-de-c2C" secondAttribute="leading" constant="20" symbolic="YES" id="Yke-se-7Rb"/>
+                                            <constraint firstItem="oFS-cN-7Lf" firstAttribute="top" secondItem="hqq-m8-miw" secondAttribute="bottom" constant="290" id="a1e-mg-IPg"/>
+                                            <constraint firstAttribute="trailing" secondItem="ABV-2F-dP6" secondAttribute="trailing" constant="20" symbolic="YES" id="kk9-Uy-1Ae"/>
+                                            <constraint firstItem="hqq-m8-miw" firstAttribute="centerX" secondItem="bMm-zL-gIF" secondAttribute="centerX" id="qAG-tM-QNN"/>
+                                            <constraint firstItem="hqq-m8-miw" firstAttribute="top" secondItem="bMm-zL-gIF" secondAttribute="bottom" constant="142" id="sNa-gc-KQm"/>
+                                            <constraint firstAttribute="trailing" secondItem="bGm-lW-dPY" secondAttribute="trailing" constant="20" symbolic="YES" id="xNP-Rr-nbe"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="C6F-de-c2C" firstAttribute="trailing" secondItem="fCR-ae-1em" secondAttribute="trailing" id="7iZ-ok-6NG"/>
                                     <constraint firstItem="C6F-de-c2C" firstAttribute="bottom" secondItem="fCR-ae-1em" secondAttribute="bottom" id="AnK-EN-PKE"/>
+                                    <constraint firstItem="OSP-yE-nXG" firstAttribute="leading" secondItem="NKQ-vM-Ucz" secondAttribute="leading" constant="5" id="Izg-95-gIH"/>
                                     <constraint firstItem="C6F-de-c2C" firstAttribute="width" secondItem="BAs-SJ-0nq" secondAttribute="width" id="ZJH-1Y-Y4k"/>
+                                    <constraint firstAttribute="trailing" secondItem="OSP-yE-nXG" secondAttribute="trailing" constant="5" id="dPC-0n-hxa"/>
+                                    <constraint firstItem="OSP-yE-nXG" firstAttribute="top" secondItem="NKQ-vM-Ucz" secondAttribute="top" constant="5" id="idr-Sc-V5Y"/>
                                     <constraint firstItem="fCR-ae-1em" firstAttribute="top" secondItem="C6F-de-c2C" secondAttribute="top" id="lEt-NQ-pcU"/>
                                     <constraint firstItem="C6F-de-c2C" firstAttribute="leading" secondItem="fCR-ae-1em" secondAttribute="leading" id="qvj-Xq-EyN"/>
                                 </constraints>
@@ -900,29 +890,25 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZVb-eK-szu">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1950"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fryfish pic" translatesAutoresizingMaskIntoConstraints="NO" id="aAH-h9-3tj">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="262"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fryfish pic" translatesAutoresizingMaskIntoConstraints="NO" id="aAH-h9-3tj">
+                                                <rect key="frame" x="5" y="5" width="404" height="228"/>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fried Fish" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nZR-U2-cSo">
-                                                <rect key="frame" x="61" y="260" width="292" height="22"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fried Fish" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nZR-U2-cSo">
+                                                <rect key="frame" x="167" y="241" width="80" height="21"/>
                                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="18"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Directions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D71-GS-VH0">
-                                                <rect key="frame" x="156" y="780" width="102" height="22"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Directions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D71-GS-VH0">
+                                                <rect key="frame" x="156" y="729" width="102" height="25.5"/>
                                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="52p-0a-jGB">
-                                                <rect key="frame" x="32" y="310" width="350" height="223"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="52p-0a-jGB">
+                                                <rect key="frame" x="20" y="286" width="374" height="216.5"/>
                                                 <string key="text">Pește prăjit is a tasty Moldovan seafood dish. This fish dish is usually made with Crucian carp, a river fish with plenty of nutrients.
 
 To make this dish, the fish is first coated with cornflour. Each fish is then fried in oil until brown.
@@ -932,9 +918,8 @@ It is usually served with polenta (mămăliga) and garlic, oil, and vinegar sauc
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lkt-xZ-ggi">
-                                                <rect key="frame" x="32" y="633" width="350" height="102"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lkt-xZ-ggi">
+                                                <rect key="frame" x="20" y="598" width="374" height="98.5"/>
                                                 <string key="text">• 600-700 g freshly caught carp
 • 400 g corn maize
 • 1 whole garlic
@@ -944,9 +929,14 @@ It is usually served with polenta (mămăliga) and garlic, oil, and vinegar sauc
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="200" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yrw-Bv-lt2">
-                                                <rect key="frame" x="32" y="832" width="350" height="1149"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingredients" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LZc-aN-1x0">
+                                                <rect key="frame" x="150" y="535" width="114" height="26"/>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="200" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yrw-Bv-lt2">
+                                                <rect key="frame" x="20" y="786" width="374" height="1120.5"/>
                                                 <string key="text">• Remove the carp's head and bowels and throw them away. Don't remove the flippers. Slice the fish in more manageable pieces and remove every scale you can find with a knife or a special tool:
 
 • After you're done de-scaling, put the fish pieces in a large bowl:
@@ -978,26 +968,37 @@ It is usually served with polenta (mămăliga) and garlic, oil, and vinegar sauc
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ingredients" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LZc-aN-1x0">
-                                                <rect key="frame" x="150" y="572" width="114" height="26"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
-                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="2000" id="Syj-Op-gm1"/>
+                                            <constraint firstItem="LZc-aN-1x0" firstAttribute="centerX" secondItem="nZR-U2-cSo" secondAttribute="centerX" id="0xc-0b-xME"/>
+                                            <constraint firstItem="nZR-U2-cSo" firstAttribute="centerX" secondItem="aAH-h9-3tj" secondAttribute="centerX" id="BzM-Yu-Qfp"/>
+                                            <constraint firstAttribute="trailing" secondItem="yrw-Bv-lt2" secondAttribute="trailing" constant="20" symbolic="YES" id="Hne-Fd-Hml"/>
+                                            <constraint firstItem="Lkt-xZ-ggi" firstAttribute="top" secondItem="LZc-aN-1x0" secondAttribute="bottom" constant="37" id="Htv-qs-fgV"/>
+                                            <constraint firstItem="yrw-Bv-lt2" firstAttribute="top" secondItem="D71-GS-VH0" secondAttribute="bottom" constant="31.5" id="OD6-Rx-dXI"/>
+                                            <constraint firstItem="52p-0a-jGB" firstAttribute="top" secondItem="nZR-U2-cSo" secondAttribute="bottom" constant="24" id="OeS-KH-jhS"/>
+                                            <constraint firstItem="yrw-Bv-lt2" firstAttribute="leading" secondItem="ZVb-eK-szu" secondAttribute="leading" constant="20" symbolic="YES" id="Sfs-aZ-XYI"/>
+                                            <constraint firstAttribute="height" constant="1950" id="Syj-Op-gm1"/>
+                                            <constraint firstAttribute="trailing" secondItem="52p-0a-jGB" secondAttribute="trailing" constant="20" symbolic="YES" id="Z1Z-as-0no"/>
+                                            <constraint firstItem="nZR-U2-cSo" firstAttribute="top" secondItem="aAH-h9-3tj" secondAttribute="bottom" constant="8" symbolic="YES" id="ccw-1x-tVX"/>
+                                            <constraint firstAttribute="trailing" secondItem="Lkt-xZ-ggi" secondAttribute="trailing" constant="20" symbolic="YES" id="pNV-c4-eti"/>
+                                            <constraint firstItem="D71-GS-VH0" firstAttribute="top" secondItem="LZc-aN-1x0" secondAttribute="bottom" constant="168" id="tOq-qD-Z7T"/>
+                                            <constraint firstItem="LZc-aN-1x0" firstAttribute="top" secondItem="nZR-U2-cSo" secondAttribute="bottom" constant="273" id="u8U-N3-4A6"/>
+                                            <constraint firstItem="Lkt-xZ-ggi" firstAttribute="leading" secondItem="ZVb-eK-szu" secondAttribute="leading" constant="20" symbolic="YES" id="xGy-Ip-L3i"/>
+                                            <constraint firstItem="D71-GS-VH0" firstAttribute="centerX" secondItem="LZc-aN-1x0" secondAttribute="centerX" id="yEL-nh-YtV"/>
+                                            <constraint firstItem="52p-0a-jGB" firstAttribute="leading" secondItem="ZVb-eK-szu" secondAttribute="leading" constant="20" symbolic="YES" id="ypr-LS-tqo"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="ZVb-eK-szu" firstAttribute="trailing" secondItem="9cR-6W-Ms7" secondAttribute="trailing" id="8LH-zO-5s1"/>
+                                    <constraint firstAttribute="trailing" secondItem="aAH-h9-3tj" secondAttribute="trailing" constant="5" id="HNU-PH-wHn"/>
                                     <constraint firstItem="9cR-6W-Ms7" firstAttribute="top" secondItem="ZVb-eK-szu" secondAttribute="top" id="Ko5-hs-YSj"/>
                                     <constraint firstItem="ZVb-eK-szu" firstAttribute="width" secondItem="4eX-ts-cNq" secondAttribute="width" id="L0g-SC-sMs"/>
+                                    <constraint firstItem="aAH-h9-3tj" firstAttribute="leading" secondItem="hpu-bG-DYw" secondAttribute="leading" constant="5" id="L6t-HJ-EqB"/>
                                     <constraint firstItem="ZVb-eK-szu" firstAttribute="bottom" secondItem="9cR-6W-Ms7" secondAttribute="bottom" id="exe-cb-uZa"/>
                                     <constraint firstItem="ZVb-eK-szu" firstAttribute="leading" secondItem="9cR-6W-Ms7" secondAttribute="leading" id="fLP-LV-s8z"/>
+                                    <constraint firstItem="aAH-h9-3tj" firstAttribute="top" secondItem="hpu-bG-DYw" secondAttribute="top" constant="5" id="wd5-ks-vhH"/>
                                 </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="9cR-6W-Ms7"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="4eX-ts-cNq"/>
@@ -1625,17 +1626,38 @@ Transfer mussels and sauce to a serving bowl and top with tarragon. Serve with b
             </objects>
             <point key="canvasLocation" x="7485.507246376812" y="-1355.3571428571429"/>
         </scene>
-        <!--w-->
+        <!--AboutPage View-->
         <scene sceneID="8Cm-4t-ljd">
             <objects>
-                <viewController title="w" id="h1V-8c-rfZ" sceneMemberID="viewController">
+                <viewController title="AboutPage View" id="h1V-8c-rfZ" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dIN-vk-kef">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="40" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ifR-el-iOw">
-                                <rect key="frame" x="20" y="128" width="374" height="640"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="github_PNG58" translatesAutoresizingMaskIntoConstraints="NO" id="sBH-nH-wiq">
+                                <rect key="frame" x="16" y="633" width="26" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="github_PNG58" translatesAutoresizingMaskIntoConstraints="NO" id="TtA-Rj-34m">
+                                <rect key="frame" x="16" y="545" width="26" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="transparent-background-instagram-logo-115628768457dqqkcnfyz" translatesAutoresizingMaskIntoConstraints="NO" id="0jH-Fe-b6I">
+                                <rect key="frame" x="21" y="660" width="16" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="transparent-background-instagram-logo-115628768457dqqkcnfyz" translatesAutoresizingMaskIntoConstraints="NO" id="RSI-yp-VQs">
+                                <rect key="frame" x="21" y="572" width="16" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L4s-Su-Qpi">
+                                <rect key="frame" x="182" y="107" width="59" height="26"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="40" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ifR-el-iOw">
+                                <rect key="frame" x="24" y="128" width="374" height="640"/>
                                 <string key="text">Work of two ambitions,curious and organized guys,trying to arrange this puzzle together.This is 1.0 version of the app.We also want to build a website parallel with the app witch will have user profiles and each user will be able to chat with others , share their culinary recipies and thaughts, add new recipies,rate others recipies, save them into their profile.All these features will be build up in the app's future versions and last but not least, ingredients calculator, when user will add in cart his loved recipies , all ingredients will be calculated in the total, presented in a list ready to be taken to the grocery store.
 
 If you want to get in touch with us, please follow the links below:
@@ -1654,38 +1676,21 @@ Vasili Mandalac(Full Stack Web Developer)
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="github_PNG58" translatesAutoresizingMaskIntoConstraints="NO" id="sBH-nH-wiq">
-                                <rect key="frame" x="16" y="633" width="26" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="github_PNG58" translatesAutoresizingMaskIntoConstraints="NO" id="TtA-Rj-34m">
-                                <rect key="frame" x="16" y="545" width="26" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="transparent-background-instagram-logo-115628768457dqqkcnfyz" translatesAutoresizingMaskIntoConstraints="NO" id="0jH-Fe-b6I">
-                                <rect key="frame" x="21" y="660" width="16" height="14"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="transparent-background-instagram-logo-115628768457dqqkcnfyz" translatesAutoresizingMaskIntoConstraints="NO" id="RSI-yp-VQs">
-                                <rect key="frame" x="21" y="572" width="16" height="14"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L4s-Su-Qpi">
-                                <rect key="frame" x="178" y="107" width="59" height="26"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="zwk-JV-YuJ"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="L4s-Su-Qpi" firstAttribute="leading" secondItem="ifR-el-iOw" secondAttribute="trailing" constant="-216" id="A6y-L0-4lX"/>
+                            <constraint firstItem="L4s-Su-Qpi" firstAttribute="leading" secondItem="zwk-JV-YuJ" secondAttribute="leading" constant="182" id="AQO-ea-NC8"/>
+                            <constraint firstItem="L4s-Su-Qpi" firstAttribute="top" secondItem="zwk-JV-YuJ" secondAttribute="top" constant="19" id="pBz-rH-vH8"/>
+                            <constraint firstItem="zwk-JV-YuJ" firstAttribute="trailing" secondItem="L4s-Su-Qpi" secondAttribute="trailing" constant="173" id="xu0-9u-A0j"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="KE7-Qb-Far"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JbP-9P-XQm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="657" y="804"/>
+            <point key="canvasLocation" x="656.52173913043487" y="803.57142857142856"/>
         </scene>
         <!--Russian Recipes List View-->
         <scene sceneID="0zP-NC-kUq">
@@ -1695,84 +1700,70 @@ Vasili Mandalac(Full Stack Web Developer)
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vnp-sC-0I2">
-                                <rect key="frame" x="20" y="138" width="374" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="beets soup"/>
-                                <connections>
-                                    <segue destination="WFs-qE-srm" kind="show" id="JYO-Rh-DGc"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hF6-ha-3PJ">
-                                <rect key="frame" x="20" y="283" width="374" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="beef macaroane"/>
-                                <connections>
-                                    <segue destination="xvJ-1q-pjU" kind="show" id="g6M-es-wOk"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VwU-4u-oGL">
-                                <rect key="frame" x="20" y="430" width="374" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="pilmeni"/>
-                                <connections>
-                                    <segue destination="KGH-U5-zYK" kind="show" id="O9C-6Q-ua6"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tFt-8j-5x8">
-                                <rect key="frame" x="20" y="582" width="374" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="uha"/>
-                                <connections>
-                                    <segue destination="0RF-nD-DCe" kind="show" id="3fm-hQ-1Ey"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Beetroot Soup (Borhch)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Nu-7N-5w5">
-                                <rect key="frame" x="162" y="183" width="230" height="26"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Beef Stroganoff" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sf4-aN-qBi">
-                                <rect key="frame" x="162" y="328" width="230" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pelmeni" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cc3-oh-gYR">
-                                <rect key="frame" x="162" y="475" width="230" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fish Soup (Ukha)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ud-e2-DVA">
-                                <rect key="frame" x="162" y="627" width="230" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Olivier Salad" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dc5-7j-sQx">
-                                <rect key="frame" x="162" y="775" width="230" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zVq-3R-sru">
-                                <rect key="frame" x="22" y="729" width="372" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="olivie"/>
-                                <connections>
-                                    <segue destination="17B-fc-8Kw" kind="show" id="e2n-dx-k8m"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillEqually" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="doK-fJ-s5z">
+                                <rect key="frame" x="15" y="113" width="384" height="724"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vnp-sC-0I2">
+                                        <rect key="frame" x="0.0" y="0.0" width="384" height="135"/>
+                                        <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Beetroot Soup (Borhch)" image="beets soup">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="WFs-qE-srm" kind="show" id="JYO-Rh-DGc"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hF6-ha-3PJ">
+                                        <rect key="frame" x="0.0" y="147" width="384" height="135.5"/>
+                                        <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Beef Stroganoff" image="beef macaroane">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="xvJ-1q-pjU" kind="show" id="g6M-es-wOk"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VwU-4u-oGL">
+                                        <rect key="frame" x="0.0" y="294.5" width="384" height="135"/>
+                                        <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Pelmeni" image="pilmeni">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="KGH-U5-zYK" kind="show" id="O9C-6Q-ua6"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tFt-8j-5x8">
+                                        <rect key="frame" x="0.0" y="441.5" width="384" height="135.5"/>
+                                        <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Fish Soup (Ukha)" image="uha">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="0RF-nD-DCe" kind="show" id="3fm-hQ-1Ey"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zVq-3R-sru">
+                                        <rect key="frame" x="0.0" y="589" width="384" height="135"/>
+                                        <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Olivier Salad" image="olivie">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="17B-fc-8Kw" kind="show" id="e2n-dx-k8m"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1VJ-Lq-FZJ"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="doK-fJ-s5z" firstAttribute="top" secondItem="1VJ-Lq-FZJ" secondAttribute="top" constant="25" id="OZ8-nT-MiO"/>
+                            <constraint firstItem="1VJ-Lq-FZJ" firstAttribute="trailing" secondItem="doK-fJ-s5z" secondAttribute="trailing" constant="15" id="ZXi-Jm-aAT"/>
+                            <constraint firstItem="doK-fJ-s5z" firstAttribute="leading" secondItem="1VJ-Lq-FZJ" secondAttribute="leading" constant="15" id="ZYa-7N-59v"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="doK-fJ-s5z" secondAttribute="bottom" constant="25" id="wSG-PP-Fb9"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Russian Recipes List" id="iOc-b4-Mxx"/>
                 </viewController>
@@ -1788,84 +1779,70 @@ Vasili Mandalac(Full Stack Web Developer)
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QCc-kH-ftM">
-                                <rect key="frame" x="20" y="287" width="374" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="greek salad"/>
-                                <connections>
-                                    <segue destination="bbC-t8-jVI" kind="show" id="4Df-py-ued"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P4D-mS-ZDO">
-                                <rect key="frame" x="20" y="439" width="374" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="lamb beans"/>
-                                <connections>
-                                    <segue destination="ffW-xg-BFa" kind="show" id="EON-JR-FdV"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v6m-R8-Feg">
-                                <rect key="frame" x="20" y="583" width="374" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="lemon chicken"/>
-                                <connections>
-                                    <segue destination="r19-JA-21z" kind="show" id="gfy-DY-zA6"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yyq-x4-JDD">
-                                <rect key="frame" x="20" y="732" width="374" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="egplant feta"/>
-                                <connections>
-                                    <segue destination="Grg-nG-V5e" kind="show" id="UTf-Qn-mqD"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oIy-PE-PtU">
-                                <rect key="frame" x="20" y="139" width="374" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="lentil soup"/>
-                                <connections>
-                                    <segue destination="vDw-eg-cNB" kind="show" id="XiY-eN-KtO"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Greek Salad" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YfQ-id-wOv">
-                                <rect key="frame" x="162" y="326" width="117" height="26"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lamb Stew" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X98-iu-0wc">
-                                <rect key="frame" x="162" y="472" width="109" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lemon-Garlic Chicken" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uid-0e-bXn">
-                                <rect key="frame" x="162" y="621" width="216" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Baked Eggplant " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HDo-xA-Nde">
-                                <rect key="frame" x="162" y="770" width="160" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lentil Soup" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KV1-3E-F35">
-                                <rect key="frame" x="164" y="184" width="112" height="26"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="9Cx-iy-Pog">
+                                <rect key="frame" x="15" y="113" width="384" height="724"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oIy-PE-PtU">
+                                        <rect key="frame" x="0.0" y="0.0" width="384" height="135"/>
+                                        <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Lentil Soup" image="lentil soup">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="vDw-eg-cNB" kind="show" id="XiY-eN-KtO"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QCc-kH-ftM">
+                                        <rect key="frame" x="0.0" y="147" width="384" height="135.5"/>
+                                        <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Lentil Soup" image="greek salad">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="bbC-t8-jVI" kind="show" id="4Df-py-ued"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P4D-mS-ZDO">
+                                        <rect key="frame" x="0.0" y="294.5" width="384" height="135"/>
+                                        <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Lamb Stew" image="lamb beans">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="ffW-xg-BFa" kind="show" id="EON-JR-FdV"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v6m-R8-Feg">
+                                        <rect key="frame" x="0.0" y="441.5" width="384" height="135.5"/>
+                                        <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Lemon-Garlic Chicken" image="lemon chicken">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="r19-JA-21z" kind="show" id="gfy-DY-zA6"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yyq-x4-JDD">
+                                        <rect key="frame" x="0.0" y="589" width="384" height="135"/>
+                                        <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Baked Eggplant " image="egplant feta">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="Grg-nG-V5e" kind="show" id="UTf-Qn-mqD"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="gXH-2J-2d2"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="9Cx-iy-Pog" firstAttribute="top" secondItem="gXH-2J-2d2" secondAttribute="top" constant="25" id="Q9p-CX-kB0"/>
+                            <constraint firstItem="gXH-2J-2d2" firstAttribute="trailing" secondItem="9Cx-iy-Pog" secondAttribute="trailing" constant="15" id="hgl-ov-lEd"/>
+                            <constraint firstItem="9Cx-iy-Pog" firstAttribute="leading" secondItem="gXH-2J-2d2" secondAttribute="leading" constant="15" id="vEo-Lo-Zft"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="9Cx-iy-Pog" secondAttribute="bottom" constant="25" id="yS6-y3-RLq"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Greek Recipes List" id="qxR-nL-alp"/>
                 </viewController>
