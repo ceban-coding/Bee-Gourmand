@@ -68,7 +68,7 @@
                             <stackView opaque="NO" contentMode="scaleAspectFill" axis="vertical" distribution="fillProportionally" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ES3-u4-8s5">
                                 <rect key="frame" x="0.0" y="88" width="414" height="808"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recipes By Countries" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vWO-eS-sc3">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recipes By Countries" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vWO-eS-sc3">
                                         <rect key="frame" x="113" y="0.0" width="188" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="sfZ-ch-waa"/>
@@ -190,7 +190,7 @@
                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="114" placeholderIntrinsicHeight="26" text="Ingredients" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XXy-bb-3c1">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="114" placeholderIntrinsicHeight="26" text="Ingredients" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XXy-bb-3c1">
                                                 <rect key="frame" x="149.5" y="426" width="114" height="26"/>
                                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1692,89 +1692,27 @@ Transfer mussels and sauce to a serving bowl and top with tarragon. Serve with b
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L4s-Su-Qpi">
-                                <rect key="frame" x="177.5" y="121" width="59" height="26"/>
+                                <rect key="frame" x="177.5" y="123" width="59" height="26"/>
                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="40" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ifR-el-iOw">
-                                <rect key="frame" x="25" y="176" width="364" height="350"/>
-                                <string key="text">Work of two ambitions,curious and organized guys,trying to arrange this puzzle together.This is 1.0 version of the app.We also want to build a website parallel with the app witch will have user profiles and each user will be able to chat with others , share their culinary recipies and thaughts, add new recipies,rate others recipies, save them into their profile.All these features will be build up in the app's future versions and last but not least, ingredients calculator, when user will add in cart his loved recipies , all ingredients will be calculated in the total, presented in a list ready to be taken to the grocery store.
-
-If you want to get in touch with us, please follow the links below:</string>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="40" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ifR-el-iOw">
+                                <rect key="frame" x="20" y="179" width="374" height="284.5"/>
+                                <mutableString key="text">Work of two ambitions,curious and organized guys,trying to arrange this puzzle together.This is 1.0 version of the app.We also want to build a website parallel with the app witch will have user profiles and each user will be able to chat with others , share their culinary recipies and thaughts, add new recipies,rate others recipies, save them into their profile.All these features will be build up in the app's future versions and last but not least, ingredients calculator, when user will add in cart his loved recipies , all ingredients will be calculated in the total, presented in a list ready to be taken to the grocery store.</mutableString>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ion Ceban (iOS Developer)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B2L-FI-qph">
-                                <rect key="frame" x="25" y="562" width="205" height="24"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vasili Mandalac(Full Stack Web Developer)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gxi-DB-GBt">
-                                <rect key="frame" x="27" y="665" width="322" height="23.5"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="https://github.com/ceban-coding" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nh2-4J-oRq">
-                                <rect key="frame" x="134" y="768" width="239" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="github_PNG58" translatesAutoresizingMaskIntoConstraints="NO" id="TtA-Rj-34m">
-                                <rect key="frame" x="42" y="719" width="26" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="transparent-background-instagram-logo-115628768457dqqkcnfyz" translatesAutoresizingMaskIntoConstraints="NO" id="0jH-Fe-b6I">
-                                <rect key="frame" x="199" y="441" width="16" height="14"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="www.instagram.com/ceban_coding" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IUh-FD-I8t">
-                                <rect key="frame" x="81" y="437" width="251" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="www.instagram.com/mandalacv" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jsS-eQ-Qv4">
-                                <rect key="frame" x="93" y="437" width="227" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="transparent-background-instagram-logo-115628768457dqqkcnfyz" translatesAutoresizingMaskIntoConstraints="NO" id="dmh-Xk-EhN">
-                                <rect key="frame" x="199" y="441" width="16" height="14"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="https://github.com/mandalac" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EtG-wr-ccP">
-                                <rect key="frame" x="84" y="721" width="209" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="github_PNG58" translatesAutoresizingMaskIntoConstraints="NO" id="zWc-UU-9Zv">
-                                <rect key="frame" x="64" y="766" width="26" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="zwk-JV-YuJ"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="zwk-JV-YuJ" firstAttribute="trailing" secondItem="ifR-el-iOw" secondAttribute="trailing" constant="25" id="0nh-ge-eBx"/>
-                            <constraint firstItem="L4s-Su-Qpi" firstAttribute="centerX" secondItem="zwk-JV-YuJ" secondAttribute="centerX" id="35a-ca-QpC"/>
-                            <constraint firstItem="ifR-el-iOw" firstAttribute="leading" secondItem="zwk-JV-YuJ" secondAttribute="leading" constant="25" id="6V5-uL-Bcn"/>
-                            <constraint firstItem="ifR-el-iOw" firstAttribute="top" secondItem="L4s-Su-Qpi" secondAttribute="bottom" constant="29" id="7Y6-Qx-sLP"/>
-                            <constraint firstItem="B2L-FI-qph" firstAttribute="leading" secondItem="zwk-JV-YuJ" secondAttribute="leading" constant="25" id="NAp-ZI-ClT"/>
-                            <constraint firstItem="L4s-Su-Qpi" firstAttribute="top" secondItem="zwk-JV-YuJ" secondAttribute="top" constant="33" id="ino-Ri-e4T"/>
-                            <constraint firstItem="zwk-JV-YuJ" firstAttribute="trailing" secondItem="B2L-FI-qph" secondAttribute="trailing" constant="184" id="nPg-s2-qme"/>
-                            <constraint firstItem="B2L-FI-qph" firstAttribute="top" secondItem="ifR-el-iOw" secondAttribute="bottom" constant="36" id="wgG-lI-NYu"/>
+                            <constraint firstItem="L4s-Su-Qpi" firstAttribute="top" secondItem="zwk-JV-YuJ" secondAttribute="top" constant="35" id="49N-Bv-sis"/>
+                            <constraint firstItem="ifR-el-iOw" firstAttribute="leading" secondItem="zwk-JV-YuJ" secondAttribute="leading" constant="20" id="Tmm-v6-30k"/>
+                            <constraint firstItem="L4s-Su-Qpi" firstAttribute="centerX" secondItem="zwk-JV-YuJ" secondAttribute="centerX" id="nNY-SP-8eW"/>
+                            <constraint firstItem="ifR-el-iOw" firstAttribute="top" secondItem="L4s-Su-Qpi" secondAttribute="bottom" constant="30" id="vMe-nD-Nqw"/>
+                            <constraint firstItem="zwk-JV-YuJ" firstAttribute="trailing" secondItem="ifR-el-iOw" secondAttribute="trailing" constant="20" id="zo6-Z6-91z"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="KE7-Qb-Far"/>
@@ -3149,7 +3087,6 @@ This is a perfect recipe to make toward the end of summer when the garden is bu
         <image name="egplant" width="328" height="208"/>
         <image name="egplant feta" width="128" height="128"/>
         <image name="fryfish pic" width="358" height="228"/>
-        <image name="github_PNG58" width="768" height="768"/>
         <image name="greek salad" width="128" height="128"/>
         <image name="greek slad" width="328" height="208"/>
         <image name="lamb beans" width="128" height="128"/>
@@ -3173,7 +3110,6 @@ This is a perfect recipe to make toward the end of summer when the garden is bu
         <image name="steamed mussels" width="128" height="128"/>
         <image name="stew lamb" width="328" height="208"/>
         <image name="stuffed cabages" width="128" height="128"/>
-        <image name="transparent-background-instagram-logo-115628768457dqqkcnfyz" width="840" height="859"/>
         <image name="uha" width="128" height="128"/>
         <image name="ukhha" width="328" height="208"/>
         <systemColor name="systemBackgroundColor">
